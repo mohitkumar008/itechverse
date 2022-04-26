@@ -1,0 +1,219 @@
+@media (min-width: 800px) {
+    header nav .container {
+        flex-direction: row;
+        flex-wrap: nowrap !important;
+    }
+
+    header nav .container .navbar-header {
+        margin: 0;
+    }
+
+    header nav .container .navbar-collapse ul {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 800px) {
+    header nav .container {
+        flex-direction: column;
+        flex-wrap: nowrap !important;
+    }
+
+    header nav .container .navbar-header {
+        display: block;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    header nav .container .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        background: rgb(248, 248, 248);
+        z-index: 100;
+    }
+}
+
+@media (max-width: 1500px) {
+    .banner-text-wrapper h1 {
+        font-size: 7rem;
+    }
+
+    .banner-text-wrapper h3 {
+        font-size: 4.5rem;
+    }
+
+    .banner-text-wrapper p.animated-text {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    .popup {
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 1500px) {
+    .banner-text-wrapper h1 {
+        font-size: 7rem;
+    }
+
+    .banner-text-wrapper h3 {
+        font-size: 4.5rem;
+    }
+
+    .banner-text-wrapper {
+        top: 35%;
+    }
+
+    .banner-text-wrapper p.animated-text {
+        font-size: 2.5rem;
+    }
+
+
+}
+
+@media (max-width: 1500px) {
+    .banner-text-wrapper h1 {
+        font-size: 6rem;
+    }
+
+    .banner-text-wrapper h3 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1250px) {
+    .banner-text-wrapper h1 {
+        font-size: 5rem;
+    }
+
+    .banner-text-wrapper h3 {
+        font-size: 3.5rem;
+    }
+
+    .banner-text-wrapper p.animated-text {
+        font-size: 2.5rem;
+    }
+
+    .banner-text-wrapper {
+        top: 20%;
+    }
+
+    .popup {
+        width: 35%;
+    }
+}
+
+@media (min-width: 1250px) {
+    section#how-we-help .card {
+        width: 35rem;
+    }
+
+    .testimonial-item {
+        padding: 0 80px;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    .banner-text-wrapper {
+        top: 35%;
+    }
+
+    .banner-text-wrapper p a.get-start-btn {
+        font-size: 1.3rem;
+        padding: 6px 15px;
+    }
+
+    section#how-we-help .card {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 780px) {
+    .banner-text-wrapper h1 {
+        font-size: 4rem;
+    }
+
+    .banner-text-wrapper h3 {
+        font-size: 2.5rem;
+    }
+
+    .banner-text-wrapper p.animated-text {
+        font-size: 2rem;
+    }
+
+    .banner-text-wrapper {
+        top: 30%;
+    }
+
+    .banner-text-wrapper p a.get-start-btn {
+        font-size: 1rem;
+        padding: 3px 10px;
+        margin-top: 0;
+    }
+
+    .popup {
+        width: 45%;
+    }
+}
+
+@media (max-width: 450px) {
+    .banner-text-wrapper h1 {
+        font-size: 2.5rem;
+    }
+
+    .banner-text-wrapper h3 {
+        font-size: 2rem;
+    }
+
+    .banner-text-wrapper {
+        top: 20%;
+    }
+
+    .banner-text-wrapper p a.get-start-btn {
+        font-size: .8rem;
+        font-weight: 700;
+        padding: 0px 7px;
+    }
+
+    .banner-text-wrapper p.animated-text {
+        font-size: 1.5rem;
+    }
+
+    .popup {
+        width: 80%;
+    }
+
+    .digital-markting-cards .card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 380px) {
+    .banner-text-wrapper h1 {
+        font-size: 2rem;
+    }
+
+    .banner-text-wrapper {
+        top: 20%;
+    }
+
+    .banner-text-wrapper h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .banner-text-wrapper h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner-text-wrapper h3 {
+        font-size: 1rem;
+    }
+
+}
