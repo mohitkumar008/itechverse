@@ -30,7 +30,7 @@ include './includes/define.php';
                 <div class="col-md-3"></div>
             </div>
         </div>
-        <video src="<?php echo SITE_IMG_URL; ?>banner-video.mp4" muted="" loop="" autoplay="" class="banner-video"></video>
+        <video src="<?php echo SITE_IMG_URL; ?>banner-video-2.mp4" muted="" loop="" autoplay="" class="banner-video"></video>
     </section>
 
     <div class="popup">
@@ -69,7 +69,7 @@ include './includes/define.php';
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-md-4 col-sm-6" data-aos="fade-up">
                     <div class="feature-box-04">
                         <a href="./web-development-services">
@@ -167,12 +167,12 @@ include './includes/define.php';
         <div class="container-fluid">
             <div class="row mx-2">
                 <div class="col-12">
-                    <p class="display-4" data-aos="fade-up"><span class="text-blue">Here is how we help you</span> reach your goals with the right approach</p>
+                    <p class="display-4" data-aos="fade-in"><span class="text-blue">Here is how we help you</span> reach your goals with the right approach</p>
                 </div>
             </div>
             <div class="row mx-2">
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
-                    <div class="text-center" style="margin:0 auto;" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="<?php echo SITE_IMG_URL; ?>team-will-connect-with-you.png" class="" alt="team-will-connect-with-you.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">We Understand You First</h4>
@@ -181,7 +181,7 @@ include './includes/define.php';
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
-                    <div class="text-center" style="margin:0 auto;" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="<?php echo SITE_IMG_URL; ?>research-&-analysis.png" class="" alt="research-&-analysis.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Research & Analysis</h4>
@@ -190,7 +190,7 @@ include './includes/define.php';
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
-                    <div class="text-center" style="margin:0 auto;" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="<?php echo SITE_IMG_URL; ?>well-trained-executive.png" class="" alt="well-trained-executive.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Experienced Team</h4>
@@ -199,7 +199,7 @@ include './includes/define.php';
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
-                    <div class="text-center" style="margin:0 auto;" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="<?php echo SITE_IMG_URL; ?>testing-&-review.png" class="" alt="testing-&-review.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Testing & Review</h4>
@@ -208,7 +208,7 @@ include './includes/define.php';
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
-                    <div class="text-center" style="margin:0 auto;" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="<?php echo SITE_IMG_URL; ?>technical-support.png" class="" alt="technical-support.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Regular Support</h4>
@@ -217,7 +217,7 @@ include './includes/define.php';
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
-                    <div class="text-center" style="margin:0 auto;" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="<?php echo SITE_IMG_URL; ?>quick-&-quality.png" class="" alt="quick-&-quality.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Quick & Quality service</h4>

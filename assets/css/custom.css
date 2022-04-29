@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.fa {
+    font-family: var(--fa-style-family, "Font Awesome 6 Free") !important;
+}
+
 .logo img {
     width: 200px;
 }
@@ -25,6 +35,8 @@
 .bg-dark-grey {
     background: #fbfbfb;
 }
+
+
 
 .w-70 {
     width: 70%;
@@ -704,39 +716,41 @@ section.web-serives .card:hover {
 /* font changed {} */
 .h1,
 h1 {
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 
 .h2,
 h2 {
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
 .call-to-action-2 h3 {
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 .h4,
 h4 {
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 .feature-box-04 h4 {
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.1em;
     line-height: 1.3;
 }
 
-li {
-    font-size: 1.3em;
+li,
+li a {
+    font-size: 1em !important;
     line-height: 1.3;
+    font-weight: 400;
 }
 
 .container {
@@ -745,8 +759,20 @@ li {
     padding: 0 15px;
 }
 
+.navbar.navbar-default .navbar-nav li.drop ul.drop-down {
+    background: rgb(255 255 255 / 95%) !important;
+}
+
 .navbar.navbar-default .navbar-nav li.drop ul.drop-down li a {
-    font-size: .5em !important;
+    font-size: .8em !important;
+    color: black !important;
+    font-weight: 600 !important;
+    border: none !important;
+}
+
+.navbar.navbar-default .navbar-nav li.drop ul.drop-down li.active a,
+.navbar.navbar-default .navbar-nav li.drop ul.drop-down li a:hover {
+    color: #fff !important;
 }
 
 .d-flex {
@@ -755,4 +781,12 @@ li {
 
 .list-disc {
     list-style: disc;
+}
+
+/* color: #7fadda */
+/* color: #488acc */
+
+iframe #document html body video {
+    margin: 0 !important;
+    width: 100% !important;
 }

@@ -18,7 +18,7 @@ include '../includes/define.php';
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="<?php echo SITE_IMG_URL; ?>banner/wd-banner.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo SITE_IMG_URL; ?>banner/Itech-banners.jpg" class="img-responsive" alt="">
                 </div>
             </div>
         </div>
@@ -46,12 +46,12 @@ include '../includes/define.php';
     <!-- About section ends -->
 
     <!-- Our Web Services -->
-    <section class="web-serives pad-b50 pad-t50">
+    <section class="web-serives pad-t50 pad20">
         <div class="container">
             <div class="section-title text-center" data-aos="fade-up">
                 <h3>Our Web Services </h3>
             </div>
-            <div class="row pad-b50">
+            <div class="row pad30">
                 <div class="col-md-6 col-sm-6 flex-align-center">
                     <div class="ml50 no-ml-xs">
                         <h2 class="pad-b10 text-blue underline mb10" data-aos="fade-up">E-commerce Website</h2>
@@ -64,7 +64,11 @@ include '../includes/define.php';
                     <img src="<?php echo SITE_IMG_URL; ?>ecomm.jpg" class="card-img-top" alt="ecomm.jpg" data-aos="zoom-in">
                 </div>
             </div>
-            <div class="row pad-b50">
+        </div>
+    </section>
+    <section class="web-serives pad20 bg-dark-grey">
+        <div class="container">
+            <div class="row pad30">
                 <div class="col-md-6 col-sm-6">
                     <img src="<?php echo SITE_IMG_URL; ?>inforamative.jpg" class="card-img-top" alt="inforamative.jpg" data-aos="zoom-in">
                 </div>
@@ -79,7 +83,11 @@ include '../includes/define.php';
                     </div>
                 </div>
             </div>
-            <div class="row pad-b50">
+        </div>
+    </section>
+    <section class="web-serives pad20">
+        <div class="container">
+            <div class="row ">
                 <div class="col-md-6 col-sm-6 flex-align-center">
                     <div class="ml50 no-ml-xs">
                         <h2 class="pad-b10 text-blue underline mb10" data-aos="fade-up">Customization</h2>

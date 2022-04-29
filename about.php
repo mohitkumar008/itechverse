@@ -28,9 +28,9 @@ include './includes/define.php';
         <div class="bg-overlay dark"></div>
     </section>
 
-    <section class="web-serives pad-b50 pad-t50">
+    <section class="web-serives pad20">
         <div class="container">
-            <div class="row pad-b50">
+            <div class="row pad50">
                 <div class="col-md-6 col-sm-6 flex-align-center" data-aos="fade-right">
                     <div class="ml50 no-ml-xs">
                         <h1 class="pad-b10 text-blue underline mb10">about</h1>
@@ -40,13 +40,17 @@ include './includes/define.php';
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6" data-aos="zoom-in-left">
-                    <img src="./images/about-first.jpg" class="card-img-top" alt="about-first.jpg">
+                <div class="col-md-6 col-sm-6 text-center" data-aos="zoom-in-left">
+                    <img src="./images/about-first.jpg" class="card-img-top w-75" alt="about-first.jpg">
                 </div>
             </div>
-            <div class="row pad-b50">
-                <div class="col-md-6 col-sm-6" data-aos="zoom-in-right">
-                    <img src="./images/about-main.jpg" class="card-img-top" alt="about-main.jpg">
+        </div>
+    </section>
+    <section class="web-serives bg-dark-grey pad20">
+        <div class="container">
+            <div class="row pad50">
+                <div class="col-md-6 col-sm-6 text-center" data-aos="zoom-in-right">
+                    <img src="./images/about-main-rbg.png" class="card-img-top w-75" alt="about-main.jpg">
                 </div>
                 <div class="col-md-6 col-sm-6 flex-align-center" data-aos="fade-left">
                     <div class="ml50 no-ml-xs bounceInRight animated">
@@ -56,7 +60,11 @@ include './includes/define.php';
                     </div>
                 </div>
             </div>
-            <div class="row pad-b50">
+        </div>
+    </section>
+    <section class="web-serives pad20">
+        <div class="container">
+            <div class="row pad50">
                 <div class="col-md-6 col-sm-6 flex-align-center" data-aos="fade-right">
                     <div class="ml50 no-ml-xs bounceInLeft animated">
                         <h1 class="pad-b10 text-blue underline mb10">OUR MISSION</h1>
@@ -64,8 +72,8 @@ include './includes/define.php';
                         <p>Our motive is to provide each Business with excellent Creators and Technology. We believe in delivering you quality services at modest prices.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6" data-aos="zoom-in-left">
-                    <img src="./images/our-mission.jpg" class="card-img-top" alt="our-mission.jpg">
+                <div class="col-md-6 col-sm-6 text-center" data-aos="zoom-in-left">
+                    <img src="./images/our-mission.jpg" class="card-img-top w-75" alt="our-mission.jpg">
                 </div>
             </div>
         </div>
