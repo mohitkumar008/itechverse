@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 /*
 Theme Name: C-HEAD
 Description: C-HEAD - Responsive Multipurpose HTML Template. Its a full responsive theme built with Bootstrap.
@@ -11,7 +13,7 @@ Author URL: http://www.chitrakootweb.com
 }
 
 body {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #888;
     font-size: 15px;
     line-height: 25px;
@@ -79,7 +81,7 @@ h6 {
     font-weight: 600;
     color: #222;
     letter-spacing: 1px;
-    font-family: 'Barlow', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 img {
@@ -4605,7 +4607,7 @@ textarea {
     border: 1px solid #e1e1e1;
     border-radius: 0;
     color: #414141;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     height: 40px;
     line-height: 40px;
