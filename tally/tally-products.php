@@ -18,7 +18,7 @@ include '../includes/define.php';
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="<?php echo SITE_IMG_URL; ?>banner/tally-product.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo ASSET_IMG_URL; ?>banner/tally-product.jpg" class="img-responsive" alt="">
                 </div>
             </div>
         </div>
@@ -42,8 +42,8 @@ include '../includes/define.php';
                 </div>
                 <div class="col-md-6 col-sm-6 text-center flex-align-center" data-aos="flip-left">
                     <div class="row">
-                        <div class="col-lg-6"><img src="<?php echo SITE_IMG_URL; ?>Tally-Prime-Silver.png" class="img-fluid" alt="graphic-design-svg-image.png"></div>
-                        <div class="col-lg-6"><img src="<?php echo SITE_IMG_URL; ?>Tally-Prime-Gold.png" class="img-fluid" alt="graphic-design-svg-image.png"></div>
+                        <div class="col-lg-6"><img src="<?php echo ASSET_IMG_URL; ?>Tally-Prime-Silver.png" class="img-fluid" alt="graphic-design-svg-image.png"></div>
+                        <div class="col-lg-6"><img src="<?php echo ASSET_IMG_URL; ?>Tally-Prime-Gold.png" class="img-fluid" alt="graphic-design-svg-image.png"></div>
                     </div>
                 </div>
             </div>
@@ -85,14 +85,14 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 ">
-                                    <img src="<?php echo SITE_IMG_URL; ?>gst-compliant-invoice-in-secs.jpg" class="img-fluid" alt="graphic-design-svg-image.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>gst-compliant-invoice-in-secs.jpg" class="img-fluid" alt="graphic-design-svg-image.png">
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 mb50">
                             <div class="row ">
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>sell-and-buy.png" class="img-fluid" alt="sell-and-buy.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>sell-and-buy.png" class="img-fluid" alt="sell-and-buy.png">
                                 </div>
                                 <div class="col-lg-6 col-md-12 flex-align-center">
                                     <div class="no-ml-xs" data-aos="fade-up">
@@ -111,14 +111,14 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>multiple-billing.png" class="img-fluid" alt="multiple-billing.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>multiple-billing.png" class="img-fluid" alt="multiple-billing.png">
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 mb50">
                             <div class="row ">
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>mutli-currency.png" class="img-fluid" alt="mutli-currency.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>mutli-currency.png" class="img-fluid" alt="mutli-currency.png">
                                 </div>
                                 <div class="col-lg-6 col-md-12 flex-align-center">
                                     <div class="no-ml-xs" data-aos="fade-up">
@@ -137,7 +137,7 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>multiple-billing.png" class="img-fluid" alt="multiple-billing.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>multiple-billing.png" class="img-fluid" alt="multiple-billing.png">
                                 </div>
                             </div>
                         </div>
@@ -153,14 +153,14 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>Tally Services Banner.png" class="img-fluid w-50" alt="Tally Services Banner.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>Tally Services Banner.png" class="img-fluid w-50" alt="Tally Services Banner.png">
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 mb50">
                             <div class="row ">
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>sell-and-buy.png" class="img-fluid" alt="sell-and-buy.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>sell-and-buy.png" class="img-fluid" alt="sell-and-buy.png">
                                 </div>
                                 <div class="col-lg-6 col-md-12 flex-align-center">
                                     <div class="no-ml-xs" data-aos="fade-up">
@@ -179,7 +179,7 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>multiple-billing.png" class="img-fluid" alt="multiple-billing.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>multiple-billing.png" class="img-fluid" alt="multiple-billing.png">
                                 </div>
                             </div>
                         </div>
@@ -197,14 +197,14 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 ">
-                                    <img src="<?php echo SITE_IMG_URL; ?>gst-compliant-invoice-in-secs.jpg" class="img-fluid" alt="graphic-design-svg-image.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>gst-compliant-invoice-in-secs.jpg" class="img-fluid" alt="graphic-design-svg-image.png">
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 mb50">
                             <div class="row ">
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>sell-and-buy.png" class="img-fluid" alt="sell-and-buy.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>sell-and-buy.png" class="img-fluid" alt="sell-and-buy.png">
                                 </div>
                                 <div class="col-lg-6 col-md-12 flex-align-center">
                                     <div class="no-ml-xs" data-aos="fade-up">
@@ -228,14 +228,14 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>gst-comp.png" class="img-fluid" alt="gst-comp.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>gst-comp.png" class="img-fluid" alt="gst-comp.png">
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 mb50">
                             <div class="row ">
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>mutli-currency.png" class="img-fluid" alt="mutli-currency.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>mutli-currency.png" class="img-fluid" alt="mutli-currency.png">
                                 </div>
                                 <div class="col-lg-6 col-md-12 flex-align-center">
                                     <div class="no-ml-xs" data-aos="fade-up">
@@ -256,14 +256,14 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>multiple-billing.png" class="img-fluid" alt="multiple-billing.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>multiple-billing.png" class="img-fluid" alt="multiple-billing.png">
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 mb50">
                             <div class="row ">
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>mutli-currency.png" class="img-fluid" alt="mutli-currency.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>mutli-currency.png" class="img-fluid" alt="mutli-currency.png">
                                 </div>
                                 <div class="col-lg-6 col-md-12 flex-align-center">
                                     <div class="no-ml-xs" data-aos="fade-up">
@@ -282,7 +282,7 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>multiple-billing.png" class="img-fluid" alt="multiple-billing.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>multiple-billing.png" class="img-fluid" alt="multiple-billing.png">
                                 </div>
                             </div>
                         </div>
@@ -301,14 +301,14 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>banking.png" class="img-fluid w-50" alt="banking.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>banking.png" class="img-fluid w-50" alt="banking.png">
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 mb50">
                             <div class="row ">
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>sell-and-buy.png" class="img-fluid" alt="sell-and-buy.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>sell-and-buy.png" class="img-fluid" alt="sell-and-buy.png">
                                 </div>
                                 <div class="col-lg-6 col-md-12 flex-align-center">
                                     <div class="no-ml-xs" data-aos="fade-up">
@@ -335,14 +335,14 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>multiple-billing.png" class="img-fluid" alt="multiple-billing.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>multiple-billing.png" class="img-fluid" alt="multiple-billing.png">
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 mb50">
                             <div class="row ">
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>cheque.png" class="img-fluid" alt="cheque.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>cheque.png" class="img-fluid" alt="cheque.png">
                                 </div>
                                 <div class="col-lg-6 col-md-12 flex-align-center">
                                     <div class="no-ml-xs" data-aos="fade-up">
@@ -361,7 +361,7 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo SITE_IMG_URL; ?>e-payment.png" class="img-fluid w-50" alt="e-payment.png">
+                                    <img src="<?php echo ASSET_IMG_URL; ?>e-payment.png" class="img-fluid w-50" alt="e-payment.png">
                                 </div>
                             </div>
                         </div>
@@ -373,7 +373,7 @@ include '../includes/define.php';
 
 
 
-    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo SITE_IMG_URL; ?>itech-2.png);">
+    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo ASSET_IMG_URL; ?>itech-2.png);">
         <div class="container pos-relative">
             <div class="row text-left">
                 <div class="col-md-12 text-center">

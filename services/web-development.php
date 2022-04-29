@@ -18,7 +18,7 @@ include '../includes/define.php';
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="<?php echo SITE_IMG_URL; ?>banner/Itech-banners.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo ASSET_IMG_URL; ?>banner/Itech-banners.jpg" class="img-responsive" alt="">
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@ include '../includes/define.php';
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 hidden-xs flex-align-center">
-                    <img src="<?php echo SITE_IMG_URL; ?>webd-about.png" alt="web-development-about.jpg" data-aos="zoom-in">
+                    <img src="<?php echo ASSET_IMG_URL; ?>webd-about.png" alt="web-development-about.jpg" data-aos="zoom-in">
                 </div>
                 <div class="col-md-6 col-sm-6 flex-align-center">
                     <div class="ml50 no-ml-xs">
@@ -61,7 +61,7 @@ include '../includes/define.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <img src="<?php echo SITE_IMG_URL; ?>ecomm.jpg" class="card-img-top" alt="ecomm.jpg" data-aos="zoom-in">
+                    <img src="<?php echo ASSET_IMG_URL; ?>ecomm.jpg" class="card-img-top" alt="ecomm.jpg" data-aos="zoom-in">
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@ include '../includes/define.php';
         <div class="container">
             <div class="row pad30">
                 <div class="col-md-6 col-sm-6">
-                    <img src="<?php echo SITE_IMG_URL; ?>inforamative.jpg" class="card-img-top" alt="inforamative.jpg" data-aos="zoom-in">
+                    <img src="<?php echo ASSET_IMG_URL; ?>inforamative.jpg" class="card-img-top" alt="inforamative.jpg" data-aos="zoom-in">
                 </div>
                 <div class="col-md-6 col-sm-6 flex-align-center">
                     <div class="ml50 no-ml-xs">
@@ -97,14 +97,14 @@ include '../includes/define.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <img src="<?php echo SITE_IMG_URL; ?>customization.jpg" class="card-img-top" alt="customization.jpg" data-aos="zoom-in">
+                    <img src="<?php echo ASSET_IMG_URL; ?>customization.jpg" class="card-img-top" alt="customization.jpg" data-aos="zoom-in">
                 </div>
             </div>
         </div>
     </section>
     <!-- Our Web Services ends -->
 
-    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo SITE_IMG_URL; ?>itech-2.png);">
+    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo ASSET_IMG_URL; ?>itech-2.png);">
         <div class="container pos-relative">
             <div class="row text-left">
                 <div class="col-md-12 text-center" data-aos="zoom-in">
@@ -126,7 +126,7 @@ include '../includes/define.php';
             </div>
             <div class="row">
                 <div class="col-12">
-                    <img src="<?php echo SITE_IMG_URL; ?>services.png" class="img-fluid" alt="">
+                    <img src="<?php echo ASSET_IMG_URL; ?>services.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>

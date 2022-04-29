@@ -31,14 +31,14 @@ include './includes/define.php';
                 <div class="col-md-3"></div>
             </div>
         </div>
-        <video src="<?php echo SITE_IMG_URL; ?>banner-video-2.mp4" muted="" loop="" autoplay="" class="banner-video"></video>
+        <video src="<?php echo ASSET_IMG_URL; ?>banner-video-2.mp4" muted="" loop="" autoplay="" class="banner-video"></video>
     </section>
 
     <div class="popup">
         <div class="popup-close" onclick="closeLoginForm()">&times;</div>
         <div class="form">
             <div class="avatar">
-                <img src="<?php echo SITE_IMG_URL; ?>enquiry_image.jpg" alt="">
+                <img src="<?php echo ASSET_IMG_URL; ?>enquiry_image.jpg" alt="">
             </div>
             <div class="header">
                 Enquiry Form
@@ -76,7 +76,7 @@ include './includes/define.php';
                         <a href="./web-development-services">
                             <div class="pad-b20">
                                 <!-- <i class="fa bi bi-tools"></i> -->
-                                <img src="<?php echo SITE_IMG_URL; ?>icons/ux.png" width="20%" alt="">
+                                <img src="<?php echo ASSET_IMG_URL; ?>icons/ux.png" width="20%" alt="">
                             </div>
                             <h4 class="pad-b10">Web Design & Development</h4>
                             <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
@@ -89,7 +89,7 @@ include './includes/define.php';
                         <a href="./digital-marketing-services">
                             <div class="pad-b20">
                                 <!-- <i class="fa bi bi-layers-half"></i> -->
-                                <img src="<?php echo SITE_IMG_URL; ?>icons/digital-marketing.png" width="20%" alt="">
+                                <img src="<?php echo ASSET_IMG_URL; ?>icons/digital-marketing.png" width="20%" alt="">
                             </div>
                             <h4 class="pad-b10">Digital Marketing</h4>
                             <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
@@ -102,7 +102,7 @@ include './includes/define.php';
                         <a href="./graphic-designing-services">
                             <div class="pad-b20">
                                 <!-- <i class="fa icon-gears"></i> -->
-                                <img src="<?php echo SITE_IMG_URL; ?>icons/web-design.png" width="20%" alt="">
+                                <img src="<?php echo ASSET_IMG_URL; ?>icons/web-design.png" width="20%" alt="">
                             </div>
                             <h4 class="pad-b10">Graphic Designing</h4>
                             <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
@@ -115,7 +115,7 @@ include './includes/define.php';
                         <a href="./content-writing-services">
                             <div class="pad-b20">
                                 <!-- <i class="fa bi bi-newspaper"></i> -->
-                                <img src="<?php echo SITE_IMG_URL; ?>icons/content-writing.png" width="20%" alt="">
+                                <img src="<?php echo ASSET_IMG_URL; ?>icons/content-writing.png" width="20%" alt="">
                             </div>
                             <h4 class="pad-b10">Content Writing</h4>
                             <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
@@ -128,7 +128,7 @@ include './includes/define.php';
                         <a href="./tally-services">
                             <div class="pad-b20">
                                 <!-- <i class="fa  icon-document"></i> -->
-                                <img src="<?php echo SITE_IMG_URL; ?>icons/vote.png" width="20%" alt="">
+                                <img src="<?php echo ASSET_IMG_URL; ?>icons/vote.png" width="20%" alt="">
                             </div>
                             <h4 class="pad-b10">Tally Services</h4>
                             <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
@@ -147,7 +147,7 @@ include './includes/define.php';
             <div class="row">
                 <div class="col-lg-5 col-md-5 col-12 mb20" data-aos="flip-down" data-aos-easing="ease-in-sine">
 
-                    <img src="<?php echo SITE_IMG_URL; ?>about-us-svg.png" alt="">
+                    <img src="<?php echo ASSET_IMG_URL; ?>about-us-svg.png" alt="">
 
                 </div>
                 <div class="col-lg-7 col-md-7 col-12 mb30" data-aos="fade-left">
@@ -174,7 +174,7 @@ include './includes/define.php';
             <div class="row mx-2">
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
                     <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                        <img src="<?php echo SITE_IMG_URL; ?>team-will-connect-with-you.png" class="" alt="team-will-connect-with-you.png" width="200">
+                        <img src="<?php echo ASSET_IMG_URL; ?>team-will-connect-with-you.png" class="" alt="team-will-connect-with-you.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">We Understand You First</h4>
                             <p class="card-text">We invest our sufficient time in understanding your business, your vision, and your objective.</p>
@@ -183,7 +183,7 @@ include './includes/define.php';
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
                     <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                        <img src="<?php echo SITE_IMG_URL; ?>research-&-analysis.png" class="" alt="research-&-analysis.png" width="200">
+                        <img src="<?php echo ASSET_IMG_URL; ?>research-&-analysis.png" class="" alt="research-&-analysis.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Research & Analysis</h4>
                             <p class="card-text">Based on your objective, vision, and business needs, We do thorough research and analysis to drive desired results.</p>
@@ -192,7 +192,7 @@ include './includes/define.php';
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
                     <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                        <img src="<?php echo SITE_IMG_URL; ?>well-trained-executive.png" class="" alt="well-trained-executive.png" width="200">
+                        <img src="<?php echo ASSET_IMG_URL; ?>well-trained-executive.png" class="" alt="well-trained-executive.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Experienced Team</h4>
                             <p class="card-text">From developers, designers to digital Marketing specialists, we matchmake your needs with our in-house talent to deliver you the right work.</p>
@@ -201,7 +201,7 @@ include './includes/define.php';
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
                     <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                        <img src="<?php echo SITE_IMG_URL; ?>testing-&-review.png" class="" alt="testing-&-review.png" width="200">
+                        <img src="<?php echo ASSET_IMG_URL; ?>testing-&-review.png" class="" alt="testing-&-review.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Testing & Review</h4>
                             <p class="card-text">We test the functioning and take detailed client reviews because we strive to provide uncluttered services and meet client expectations to the best.</p>
@@ -210,7 +210,7 @@ include './includes/define.php';
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
                     <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                        <img src="<?php echo SITE_IMG_URL; ?>technical-support.png" class="" alt="technical-support.png" width="200">
+                        <img src="<?php echo ASSET_IMG_URL; ?>technical-support.png" class="" alt="technical-support.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Regular Support</h4>
                             <p class="card-text">Our in-house technical team remains available for you on an immediate basis to provide you with complete support anytime.</p>
@@ -219,7 +219,7 @@ include './includes/define.php';
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
                     <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                        <img src="<?php echo SITE_IMG_URL; ?>quick-&-quality.png" class="" alt="quick-&-quality.png" width="200">
+                        <img src="<?php echo ASSET_IMG_URL; ?>quick-&-quality.png" class="" alt="quick-&-quality.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Quick & Quality service</h4>
                             <p class="card-text">Our approach is quality-focused and we believe in on-time delivery of service. It all creates a high satisfaction & better experience for the client.</p>
@@ -246,7 +246,7 @@ include './includes/define.php';
                     <div class="owl-carousel owl-theme">
                         <div class="item">
                             <div class="testimonial-item text-center white">
-                                <img src="<?php echo SITE_IMG_URL; ?>dummy-pic.jpg" alt="" class="img-circle">
+                                <img src="<?php echo ASSET_IMG_URL; ?>dummy-pic.jpg" alt="" class="img-circle">
                                 <p><span class="fa fa-quote-left mr10 size-20 v-top theme-color"></span> In Today's World making an online presence is very important for every business, but for that, every business needs some guidance and support which I got from the I-Techverse Team. I highly recommend their Web service to others to build a good website. <span class="fa fa-quote-right ml10 size-20 v-bottom theme-color"></span></p>
                                 <div class="client">Rahul Pal</div>
                                 <div class="separator mt20"></div>
@@ -254,7 +254,7 @@ include './includes/define.php';
                         </div>
                         <div class="item">
                             <div class="testimonial-item text-center white">
-                                <img src="<?php echo SITE_IMG_URL; ?>dummy-pic.jpg" alt="" class="img-circle">
+                                <img src="<?php echo ASSET_IMG_URL; ?>dummy-pic.jpg" alt="" class="img-circle">
                                 <p><span class="fa fa-quote-left mr10 size-20 v-top theme-color"></span> I want to thank you for providing quality service by I-Techverse. We sincerely appreciate your efficient, gracious customer service. We will continue to recommend your services to other companies and contacts.<span class="fa fa-quote-right ml10 size-20 v-bottom theme-color"></span></p>
                                 <div class="client">Kaushal Nishad</div>
                                 <div class="separator mt20"></div>
@@ -262,7 +262,7 @@ include './includes/define.php';
                         </div>
                         <div class="item">
                             <div class="testimonial-item text-center white">
-                                <img src="<?php echo SITE_IMG_URL; ?>dummy-pic.jpg" alt="" class="img-circle">
+                                <img src="<?php echo ASSET_IMG_URL; ?>dummy-pic.jpg" alt="" class="img-circle">
                                 <p><span class="fa fa-quote-left mr10 size-20 v-top theme-color"></span> My overall experience with I-Techverse is excellent. I-Techverse isn’t just building our website, they’re also working to enhance our digital presence. As Digital Marketing is a long theirconsultation showed me results in just two months, the ranking has gone up organically.<span class="fa fa-quote-right ml10 size-20 v-bottom theme-color"></span></p>
                                 <div class="client">Dhanush</div>
                                 <div class="separator mt20"></div>
@@ -357,7 +357,7 @@ include './includes/define.php';
     <!-- Latest Blogs ends -->
 
     <!-- Start Discussion Section -->
-    <section id="discussion" class="pad80 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo SITE_IMG_URL; ?>Itech-2.png);">
+    <section id="discussion" class="pad80 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo ASSET_IMG_URL; ?>Itech-2.png);">
         <div class="container pos-relative">
             <div class="row">
                 <div class="col-md-8" data-aos="fade-right">

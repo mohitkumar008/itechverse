@@ -17,7 +17,7 @@ include '../includes/define.php';
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="<?php echo SITE_IMG_URL; ?>banner/dm-banner.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo ASSET_IMG_URL; ?>banner/dm-banner.jpg" class="img-responsive" alt="">
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@ include '../includes/define.php';
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6" data-aos="fade-right">
-                    <img src="<?php echo SITE_IMG_URL; ?>digital-marketing.jpg" alt="digital-marketing.jpg">
+                    <img src="<?php echo ASSET_IMG_URL; ?>digital-marketing.jpg" alt="digital-marketing.jpg">
                 </div>
                 <div class="col-md-6 col-sm-6 flex-align-center">
                     <div class="ml50 no-ml-xs" data-aos="fade-left">
@@ -99,7 +99,7 @@ include '../includes/define.php';
         </div>
     </section>
 
-    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo SITE_IMG_URL; ?>itech-2.png);">
+    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo ASSET_IMG_URL; ?>itech-2.png);">
         <div class="container pos-relative">
             <div class="row text-left">
                 <div class="col-md-12 text-center" data-aos="zoom-in">

@@ -10,6 +10,12 @@ $link .= "://";
 // Append the host(domain name, ip) to the URL.
 $link .= $_SERVER['HTTP_HOST'];
 
+if ($link == 'http://localhost') {
+    $asseturl = $link . '/techverse';
+} else {
+    $asseturl = $link;
+}
+
 // Append the requested resource location to the URL
 $link .= $_SERVER['REQUEST_URI'];
 
@@ -18,3 +24,7 @@ $link .= $_SERVER['REQUEST_URI'];
 
 define('SITE_ROOT_URL', $link);
 define('SITE_IMG_URL', $link . 'images/');
+
+define('ASSET_URL', $asseturl . '/');
+define('ASSET_IMG_URL', $asseturl . '/images/');
+// echo ASSET_URL;
