@@ -152,7 +152,7 @@ include './includes/define.php';
                 </div>
                 <div class="col-lg-7 col-md-7 col-12 mb30" data-aos="fade-left">
                     <div class="section-title left mb50">
-                        <h3 class="size-34 white">About Us</h3>
+                        <h2 class="size-34 white">About Us</h2>
                     </div>
                     <p>I-Techverse Solutions India Pvt Ltd is a Technology Company in India founded by Mr. Sanmati Jain and Mrs. Sakshi Jain. The company provides services in India to help business enterprises to rebuild their image in the Digital world and to simplify their required tasks. The Company's Technology services are built on the belief in Innovation and Creativity and a continuous focus on delivering strategically driven Solutions to the clients.The company works in partnership with Tally Solutions.</p>
                     <a href="<?php echo SITE_ROOT_URL; ?>about" class="btn btn-primary mt20">Read More</a>
@@ -236,7 +236,7 @@ include './includes/define.php';
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title text-center white">
-                    <h3 class="white">Testimonials</h3>
+                    <h2 class="white">Testimonials</h2>
                 </div>
             </div>
         </div>

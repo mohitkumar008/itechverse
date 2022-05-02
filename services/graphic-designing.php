@@ -17,12 +17,23 @@ include '../includes/define.php';
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="<?php echo ASSET_IMG_URL; ?>banner/gd-banner.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo ASSET_IMG_URL; ?>banner/gd-banner-new.jpg" class="img-responsive" alt="">
                 </div>
             </div>
         </div>
     </section>
     <!-- Banner ends -->
+
+    <section class="bg-orange pad50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="text-white mb-3">Graphic Designing</h1>
+                    <h5 class="text-white size-20">Building you tribe withklsndflksnkfnalsdnzfnaskdxnfklasndzx</h5>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="pad40 bg-gray-light service-about">
         <div class="container">

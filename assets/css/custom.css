@@ -20,13 +20,22 @@
     background: #0a4991;
 }
 
+.bg-orange {
+    background: #f46909;
+}
+
 .bg-grey {
     background: #f6f8f9;
 }
 
 .bg-dark-grey {
-    background: #fbfbfb;
+    background: #f5f5f5;
 }
+
+/* 
+.bg-dark-grey {
+    background: #fbfbfb;
+} */
 
 
 
@@ -778,7 +787,9 @@ li a {
 /* color: #7fadda */
 /* color: #488acc */
 
-iframe #document html body video {
-    margin: 0 !important;
-    width: 100% !important;
+.section-title h2 {
+    position: relative;
+    font-size: 40px;
+    line-height: 42px;
+    color: #222222;
 }
