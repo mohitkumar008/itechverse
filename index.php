@@ -61,7 +61,7 @@ include './includes/define.php';
     <!-- Banner ends -->
 
     <!-- Services -->
-    <section class="pad-t70 pad-b70">
+    <section class="pad-t50 pad-b70">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -71,67 +71,67 @@ include './includes/define.php';
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-4 col-sm-6" data-aos="fade-up">
+                <div class="col-md-4 col-sm-6 p-0" data-aos="fade-up" data-aos-duration="700">
                     <div class="feature-box-04">
-                        <a href="./web-development-services">
+                        <a href="./services/web-development">
                             <div class="pad-b20">
                                 <!-- <i class="fa bi bi-tools"></i> -->
                                 <img src="<?php echo ASSET_IMG_URL; ?>icons/ux.png" width="20%" alt="">
                             </div>
                             <h4 class="pad-b10">Web Design & Development</h4>
-                            <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
+                            <p>We create individualized web strategies according to the niche market and deliver comprehensive web design & development solutions for every single client.</p>
                         </a>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6" data-aos="fade-up">
+                <div class="col-md-4 col-sm-6 p-0" data-aos="fade-up" data-aos-duration="700">
                     <div class="feature-box-04">
-                        <a href="./digital-marketing-services">
+                        <a href="./services/digital-marketing">
                             <div class="pad-b20">
                                 <!-- <i class="fa bi bi-layers-half"></i> -->
                                 <img src="<?php echo ASSET_IMG_URL; ?>icons/digital-marketing.png" width="20%" alt="">
                             </div>
                             <h4 class="pad-b10">Digital Marketing</h4>
-                            <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
+                            <p>A smart customer searches for value in everything, and that's exactly what we provide to them. Our secret is quality over quantity of words.</p>
                         </a>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6" data-aos="fade-up">
+                <div class="col-md-4 col-sm-6 p-0" data-aos="fade-up" data-aos-duration="700">
                     <div class="feature-box-04">
-                        <a href="./graphic-designing-services">
+                        <a href="./services/graphic-designing" class="border-none">
                             <div class="pad-b20">
                                 <!-- <i class="fa icon-gears"></i> -->
                                 <img src="<?php echo ASSET_IMG_URL; ?>icons/web-design.png" width="20%" alt="">
                             </div>
                             <h4 class="pad-b10">Graphic Designing</h4>
-                            <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
+                            <p>Our designers are masters of the latest trends, and they will create the perfect designs for you that folks will always remember.</p>
                         </a>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6" data-aos="fade-down">
+                <div class="col-md-4 col-sm-6 p-0" data-aos="fade-down" data-aos-duration="700">
                     <div class="feature-box-04">
-                        <a href="./content-writing-services">
+                        <a href="./services/content-writing">
                             <div class="pad-b20">
                                 <!-- <i class="fa bi bi-newspaper"></i> -->
                                 <img src="<?php echo ASSET_IMG_URL; ?>icons/content-writing.png" width="20%" alt="">
                             </div>
                             <h4 class="pad-b10">Content Writing</h4>
-                            <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
+                            <p>A smart customer searches for value in everything, and that's exactly what we provide to them. Our secret is quality over quantity of words. </p>
                         </a>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-6" data-aos="fade-down">
+                <div class="col-md-4 col-sm-6 p-0" data-aos="fade-down" data-aos-duration="700">
                     <div class="feature-box-04">
-                        <a href="./tally-services">
+                        <a href="./tally/tally-services" class="border-none">
                             <div class="pad-b20">
                                 <!-- <i class="fa  icon-document"></i> -->
                                 <img src="<?php echo ASSET_IMG_URL; ?>icons/vote.png" width="20%" alt="">
                             </div>
                             <h4 class="pad-b10">Tally Services</h4>
-                            <p>Exhaustive technology of implementing multi purpose projects is putting your project successful.</p>
+                            <p>Tally Software Services is a software subscription with a collection of services such as continuous product updates and upgrades, remote access and more.</p>
                         </a>
                     </div>
                 </div>
@@ -141,21 +141,32 @@ include './includes/define.php';
     </section>
     <!-- Services ends -->
 
-    <!-- About us -->
-    <section class="pad-t100 pad-b50" id="home-about">
+    <!-- Start Discussion start -->
+    <section class="start-discussion">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-5 col-12 mb20" data-aos="flip-down" data-aos-easing="ease-in-sine">
+                <div class="col-lg-6 flex-align-center">
+                    <h3 class="text-white text-center">let's start a friendly discussion</h3>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <button class="btn">contact us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start Discussion ends -->
 
-                    <img src="<?php echo ASSET_IMG_URL; ?>about-us-svg.png" alt="">
+    <!-- About us -->
+    <section class="" id="home-about" style="background-image: url(<?php echo ASSET_IMG_URL; ?>about-img.jpg); background-repeat:no-repeat;">
+        <div class="container-fluid pos-relative">
+            <div class="row">
+                <div class="col-lg-8 col-md-6 col-12" data-aos="flip-down" data-aos-easing="ease-in-sine">
+
+                    <!-- <img src="<?php echo ASSET_IMG_URL; ?>about-img-2.jpg" alt=""> -->
 
                 </div>
-                <div class="col-lg-7 col-md-7 col-12 mb30" data-aos="fade-left">
-                    <div class="section-title left mb50">
-                        <h2 class="size-34 white">About Us</h2>
-                    </div>
-                    <p>I-Techverse Solutions India Pvt Ltd is a Technology Company in India founded by Mr. Sanmati Jain and Mrs. Sakshi Jain. The company provides services in India to help business enterprises to rebuild their image in the Digital world and to simplify their required tasks. The Company's Technology services are built on the belief in Innovation and Creativity and a continuous focus on delivering strategically driven Solutions to the clients.The company works in partnership with Tally Solutions.</p>
-                    <a href="<?php echo SITE_ROOT_URL; ?>about" class="btn btn-primary mt20">Read More</a>
+                <div class="col-lg-4 col-md-6 col-12 bg-blue">
+                    <p data-aos="fade-up">I-Techverse Solutions India Pvt Ltd is a Technology Company in India founded by Mr. Sanmati Jain and Mrs. Sakshi Jain. The company provides services in India to help business enterprises to rebuild their image in the Digital world and to simplify their required tasks. The Company's Technology services are built on the belief in Innovation and Creativity and a continuous focus on delivering strategically driven Solutions to the clients.The company works in partnership with Tally Solutions.</p>
                 </div>
 
             </div>
@@ -166,14 +177,15 @@ include './includes/define.php';
     <!-- How we help you -->
     <section class="pad-t70 pad-b70" id="how-we-help">
         <div class="container-fluid">
-            <div class="row mx-2">
-                <div class="col-12">
-                    <p class="display-4" data-aos="fade-in"><span class="text-blue">Here is how we help you</span> reach your goals with the right approach</p>
+            <div class="row mx-2  pad-b30" data-aos="fade-up" data-aos-duration="700">
+                <div class="col-12 text-center">
+                    <h2 class="font-800">Here is how we help you</h2>
+                    <h4 class="text-orange">reach your goals with the right approach</h4>
                 </div>
             </div>
             <div class="row mx-2">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
-                    <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="text-center" style="margin:0 auto;">
                         <img src="<?php echo ASSET_IMG_URL; ?>team-will-connect-with-you.png" class="" alt="team-will-connect-with-you.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">We Understand You First</h4>
@@ -181,8 +193,8 @@ include './includes/define.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
-                    <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="text-center" style="margin:0 auto;">
                         <img src="<?php echo ASSET_IMG_URL; ?>research-&-analysis.png" class="" alt="research-&-analysis.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Research & Analysis</h4>
@@ -190,8 +202,8 @@ include './includes/define.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
-                    <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="text-center" style="margin:0 auto;">
                         <img src="<?php echo ASSET_IMG_URL; ?>well-trained-executive.png" class="" alt="well-trained-executive.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Experienced Team</h4>
@@ -199,8 +211,8 @@ include './includes/define.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
-                    <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="text-center" style="margin:0 auto;">
                         <img src="<?php echo ASSET_IMG_URL; ?>testing-&-review.png" class="" alt="testing-&-review.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Testing & Review</h4>
@@ -208,8 +220,8 @@ include './includes/define.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
-                    <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="text-center" style="margin:0 auto;">
                         <img src="<?php echo ASSET_IMG_URL; ?>technical-support.png" class="" alt="technical-support.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Regular Support</h4>
@@ -217,8 +229,8 @@ include './includes/define.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20">
-                    <div class="text-center" style="margin:0 auto;" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 pad-b20 pad-t20" data-aos="zoom-in" data-aos-duration="700">
+                    <div class="text-center" style="margin:0 auto;">
                         <img src="<?php echo ASSET_IMG_URL; ?>quick-&-quality.png" class="" alt="quick-&-quality.png" width="200">
                         <div class="card-body">
                             <h4 class="card-title">Quick & Quality service</h4>
@@ -277,6 +289,8 @@ include './includes/define.php';
         <!-- <div class="bg-overlay dark"></div> -->
     </section>
     <!-- Testimonials ends -->
+
+    <section class="bg-orange pad20"></section>
 
     <!-- Latest Blogs -->
     <!-- <section class="pad-t80 pad-b50">
@@ -357,7 +371,7 @@ include './includes/define.php';
     <!-- Latest Blogs ends -->
 
     <!-- Start Discussion Section -->
-    <section id="discussion" class="pad80 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo ASSET_IMG_URL; ?>Itech-2.png);">
+    <!-- <section id="discussion" class="pad80 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo ASSET_IMG_URL; ?>Itech-2.png);">
         <div class="container pos-relative">
             <div class="row">
                 <div class="col-md-8" data-aos="fade-right">
@@ -369,7 +383,7 @@ include './includes/define.php';
             </div>
         </div>
         <div class="bg-overlay"></div>
-    </section>
+    </section> -->
     <!-- Start Discussion Section ends -->
 
     <script>

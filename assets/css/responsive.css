@@ -62,8 +62,8 @@
         margin: 0;
         position: absolute;
         top: 80%;
-        left: 0px;
-        width: 240px;
+        left: -25px;
+        width: 180px;
         visibility: hidden;
         opacity: 0;
         z-index: 999;

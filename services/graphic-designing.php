@@ -28,25 +28,21 @@ include '../includes/define.php';
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="text-white mb-3">Graphic Designing</h1>
-                    <h5 class="text-white size-20">Building you tribe withklsndflksnkfnalsdnzfnaskdxnfklasndzx</h5>
+                    <h1 class="text-white mb-3">Graphic Designing SOLUTIONS</h1>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="pad40 bg-gray-light service-about">
+    <!-- About section -->
+    <section class="pad50 gd-service-about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6 flex-align-center">
-                    <div class="ml50 no-ml-xs" data-aos="fade-right">
-                        <h2 class="pad-b10">We Create Powerful, Wow Graphics By Understanding The Key Speaking Elements Of Your Business</h2>
+                <div class="col-lg-8 col-md-10 col-sm-12 mx-auto flex-align-center">
+                    <div class="text-center" data-aos="fade-up">
                         <p>We tell your story and get you recognized with powerful, wow graphics. We provide creative graphic design solutions by experimenting with words, symbols, and images. Our designers are masters of the latest trends, and they will create the perfect designs for you that folks will always remember. They spend time intensely understanding the business, identifying key speaking points, and finally creating powerful, “wow” graphics around them.</p>
                     </div>
 
-                </div>
-                <div class="col-md-6 col-sm-6 text-center" data-aos="flip-left">
-                    <img src="<?php echo ASSET_IMG_URL; ?>designer-girl.svg" class="img-fluid w-70" alt="graphic-design-svg-image.png">
                 </div>
             </div>
         </div>
@@ -59,8 +55,8 @@ include '../includes/define.php';
             <div class="section-title text-center" data-aos="fade-up">
                 <h3>Our Proficiency </h3>
             </div>
-            <div class="row pad-b50">
-                <div class="col-md-4 col-sm-4 mb-5" data-aos="flip-up">
+            <div class="row pad-b50 justify-content-center">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-4 mb-5" data-aos="flip-up">
                     <div class='card card-1'>
                         <div class='info'>
                             <h1 class=''>Identity Design</h1>
@@ -68,7 +64,7 @@ include '../includes/define.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 mb-5" data-aos="flip-up">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-4 mb-5" data-aos="flip-up">
                     <div class='card card-2'>
                         <div class='info'>
                             <h1 class='title'>Corporate Design</h1>
@@ -76,7 +72,7 @@ include '../includes/define.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 mb-5" data-aos="flip-up">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-4 mb-5" data-aos="flip-up">
                     <div class='card card-3'>
                         <div class='info'>
                             <h1 class='title'>Social Media Design</h1>
@@ -84,7 +80,7 @@ include '../includes/define.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 mb-5" data-aos="flip-up">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-4 mb-5" data-aos="flip-up">
                     <div class='card card-4'>
                         <div class='info'>
                             <h1 class='title'>Publication Design</h1>
@@ -92,7 +88,7 @@ include '../includes/define.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 mb-5" data-aos="flip-up">
+                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-4 mb-5" data-aos="flip-up">
                     <div class='card card-5'>
                         <div class='info'>
                             <h1 class='title'>Packaging Design</h1>
@@ -106,19 +102,20 @@ include '../includes/define.php';
     </section>
     <!-- Our Web Services ends -->
 
-    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo ASSET_IMG_URL; ?>itech-2.png);">
-        <div class="container pos-relative">
-            <div class="row text-left">
-                <div class="col-md-12 text-center" data-aos="zoom-in">
-                    <h3 class="pad-b20">LET’S WORK <span>TOGETHER</span> ON YOUR PROJECT</h3>
-                    <div class="col-md-12 no-padding mb-md-20">
-                        <a href="<?php echo SITE_ROOT_URL; ?>contact" class="btn btn-primary mt20">CONTACT US</a>
-                    </div>
+    <!-- Start Discussion start -->
+    <section class="start-discussion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 flex-align-center">
+                    <h3 class="text-white text-center">let's start a friendly discussion</h3>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <button class="btn">contact us</button>
                 </div>
             </div>
         </div>
-        <div class="bg-overlay dark"></div>
     </section>
+    <!-- Start Discussion ends -->
 
     <script>
         window.onload = function() {

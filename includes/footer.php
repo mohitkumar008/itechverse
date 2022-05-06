@@ -2,14 +2,6 @@
 <section class="footer-section pad-t20 bg-gray-dark">
     <div class="container">
         <div class="row">
-            <!-- <div class="col-md-4 col-sm-6 mb-md-20">
-                <div class="section-title-2">
-                    <h3>About</h3>
-                </div>
-                <div class="footer-address">
-                    <p><span>I-Techverse Solutions India Pvt Ltd</span> is a Technology Company in India founded by Mr. Sanmati Jain and Mrs. Sakshi Jain. The company provides services in India to help business enterprises to rebuild their image in the Digital world and to simplify their required tasks.</p> <a href="<?php echo SITE_ROOT_URL; ?>about" class="green">read more...</a>
-                </div>
-            </div> -->
             <div class="col-md-4 col-sm-6 mb-md-20">
                 <div class="section-title-2">
                     <h3>How to reach us!</h3>
@@ -22,7 +14,7 @@
                         info@itechversesolutions.com
                     </p>
                     <p><span class=" icon-mobile mr-10"></span>
-                        0120-4572786
+                        9310039445, 0120-4572786
                     </p>
                     <p><span class=" icon-mobile mr-10"></span>
                         10:00 AM - 7:00 PM IST

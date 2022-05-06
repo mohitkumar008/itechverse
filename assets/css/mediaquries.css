@@ -87,7 +87,7 @@
 
 @media (max-width: 1250px) {
     .banner-text-wrapper h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .banner-text-wrapper h3 {
@@ -120,7 +120,7 @@
 @media (max-width: 1050px) {
 
     .banner-text-wrapper {
-        top: 35%;
+        top: 20%;
     }
 
     .banner-text-wrapper p a.get-start-btn {
@@ -131,15 +131,19 @@
     section#how-we-help .card {
         width: 25rem;
     }
+
+    #home-about .row p {
+        padding: 70px 0;
+    }
 }
 
 @media (max-width: 780px) {
     .banner-text-wrapper h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .banner-text-wrapper h3 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .banner-text-wrapper p.animated-text {
@@ -147,7 +151,7 @@
     }
 
     .banner-text-wrapper {
-        top: 30%;
+        top: 20%;
     }
 
     .banner-text-wrapper p a.get-start-btn {
@@ -158,6 +162,10 @@
 
     .popup {
         width: 45%;
+    }
+
+    .digital-markting-cards .card {
+        width: 20em;
     }
 }
 
@@ -171,13 +179,17 @@
     }
 
     .banner-text-wrapper {
-        top: 20%;
+        top: 15%;
     }
 
     .banner-text-wrapper p a.get-start-btn {
         font-size: .8rem;
         font-weight: 700;
         padding: 0px 7px;
+    }
+
+    .feature-box-04>a {
+        border: none;
     }
 
     .banner-text-wrapper p.animated-text {
@@ -199,7 +211,7 @@
     }
 
     .banner-text-wrapper {
-        top: 20%;
+        top: 15%;
     }
 
     .banner-text-wrapper h3 {

@@ -15,20 +15,20 @@ include './includes/define.php';
     <!-- Navbar ends -->
 
     <!-- Banner -->
-    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(./images/about.jpg);">
+    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(./images/about-banner.jpg);background-position: center;">
         <div class="container pos-relative">
-            <div class="row text-center">
+            <div class="row">
                 <div class="col-md-12 pad80" data-aos="fade-up">
-                    <div class="section-title text-center m-0" data-aos="fade-up">
+                    <div class="text-end mr-10" data-aos="fade-up">
                         <h3>about us </h3>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="bg-overlay dark"></div>
+        <!-- <div class="bg-overlay dark"></div> -->
     </section>
 
-    <section class="web-serives pad20">
+    <section class="about-page-section pad20" style="background-image: url(./images/circle.png);background-position: right;background-repeat: no-repeat;background-position-x: 120%;background-size: contain;">
         <div class="container">
             <div class="row pad50">
                 <div class="col-md-6 col-sm-6 flex-align-center" data-aos="fade-right">
@@ -41,16 +41,16 @@ include './includes/define.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 text-center" data-aos="zoom-in-left">
-                    <img src="./images/about-first.jpg" class="card-img-top w-75" alt="about-first.jpg">
+                    <img src="./images/1.png" class="card-img-top w-75" alt="handshake.jpg">
                 </div>
             </div>
         </div>
     </section>
-    <section class="web-serives bg-dark-grey pad20">
+    <section class="about-page-section pad20" style="background-image: url(./images/circle.png);background-position: right;background-repeat: no-repeat;background-position-x: -20%;background-size: contain;">
         <div class="container">
             <div class="row pad50">
                 <div class="col-md-6 col-sm-6 text-center" data-aos="zoom-in-right">
-                    <img src="./images/about-main-rbg.png" class="card-img-top w-75" alt="about-main.jpg">
+                    <img src="./images/2.png" class="card-img-top w-75" alt="what-we-do.jpg">
                 </div>
                 <div class="col-md-6 col-sm-6 flex-align-center" data-aos="fade-left">
                     <div class="ml50 no-ml-xs bounceInRight animated">
@@ -62,7 +62,7 @@ include './includes/define.php';
             </div>
         </div>
     </section>
-    <section class="web-serives pad20">
+    <section class="about-page-section pad20" style="background-image: url(./images/circle.png);background-position: right;background-repeat: no-repeat;background-position-x: 120%;background-size: contain;">
         <div class="container">
             <div class="row pad50">
                 <div class="col-md-6 col-sm-6 flex-align-center" data-aos="fade-right">
@@ -73,17 +73,82 @@ include './includes/define.php';
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 text-center" data-aos="zoom-in-left">
-                    <img src="./images/our-mission.jpg" class="card-img-top w-75" alt="our-mission.jpg">
+                    <img src="./images/3.png" class="card-img-top w-75" alt="our-mission-about.jpg">
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Testimonials -->
+    <section class="pad-t30 pad-b30" id="testimonials" data-aos="fade-up">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title text-center white">
+                    <h2 class="white">Testimonials</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container pad-lr-40">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonial-item text-center white">
+                                <img src="<?php echo ASSET_IMG_URL; ?>dummy-pic.jpg" alt="" class="img-circle">
+                                <p><span class="fa fa-quote-left mr10 size-20 v-top theme-color"></span> In Today's World making an online presence is very important for every business, but for that, every business needs some guidance and support which I got from the I-Techverse Team. I highly recommend their Web service to others to build a good website. <span class="fa fa-quote-right ml10 size-20 v-bottom theme-color"></span></p>
+                                <div class="client">Rahul Pal</div>
+                                <div class="separator mt20"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-item text-center white">
+                                <img src="<?php echo ASSET_IMG_URL; ?>dummy-pic.jpg" alt="" class="img-circle">
+                                <p><span class="fa fa-quote-left mr10 size-20 v-top theme-color"></span> I want to thank you for providing quality service by I-Techverse. We sincerely appreciate your efficient, gracious customer service. We will continue to recommend your services to other companies and contacts.<span class="fa fa-quote-right ml10 size-20 v-bottom theme-color"></span></p>
+                                <div class="client">Kaushal Nishad</div>
+                                <div class="separator mt20"></div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-item text-center white">
+                                <img src="<?php echo ASSET_IMG_URL; ?>dummy-pic.jpg" alt="" class="img-circle">
+                                <p><span class="fa fa-quote-left mr10 size-20 v-top theme-color"></span> My overall experience with I-Techverse is excellent. I-Techverse isn’t just building our website, they’re also working to enhance our digital presence. As Digital Marketing is a long theirconsultation showed me results in just two months, the ranking has gone up organically.<span class="fa fa-quote-right ml10 size-20 v-bottom theme-color"></span></p>
+                                <div class="client">Dhanush</div>
+                                <div class="separator mt20"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- <div class="bg-overlay dark"></div> -->
+    </section>
+    <!-- Testimonials ends -->
+    <section class="bg-orange pad20"></section>
 
     <script>
         window.onload = function() {
             $("#about").addClass("active");
         }
+        // Owl carousel 
+        $(document).ready(function() {
+
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                singleItem: true,
+                items: 1,
+                rewindNav: true,
+                autoPlay: true,
+                slideSpeed: 300,
+                paginationSpeed: 500,
+                singleItem: true,
+                // dotsEach: 2,
+            });
+
+        });
     </script>
     <?php include './includes/footer.php' ?>
     <?php include './includes/bottomjs.php' ?>

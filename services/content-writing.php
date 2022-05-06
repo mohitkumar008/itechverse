@@ -17,23 +17,29 @@ include '../includes/define.php';
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="<?php echo ASSET_IMG_URL; ?>banner/cw-banner.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo ASSET_IMG_URL; ?>banner/cw-banner-new.jpg" class="img-responsive" alt="">
                 </div>
             </div>
         </div>
     </section>
     <!-- Banner ends -->
 
-    <!-- About section -->
-    <section class="service-about">
+    <section class="bg-orange pad50">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6" data-aos="fade-right">
-                    <img src="<?php echo ASSET_IMG_URL; ?>content-about.jpg" alt="content-about.jpg">
+                <div class="col-12 text-center">
+                    <h1 class="text-white mb-3">BUILDING YOUR TRIBE WITH CLEAR,<br> INSIGHTFUL & INSPIRING WORDS</h1>
                 </div>
-                <div class="col-md-6 col-sm-6 flex-align-center" data-aos="fade-left">
-                    <div class="ml50 no-ml-xs bounceInRight animated">
-                        <h2 class="pad-b10">Building Your Tribe With Clear, Insightful, & Inspiring Words</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="pad50 gd-service-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 col-sm-12 mx-auto flex-align-center">
+                    <div class="text-center" data-aos="fade-up">
                         <p>For us it's more than just content writing, it's right and relevant content that speaks to your audience directly. A smart customer searches for value in everything, and that's exactly what we provide to them. Our secret is quality over quantity of words. We help you build your tribe with quality & relevant content rather than quantity. Of course, we write for search engines but we do not ignore the human value in our writing.</p>
                     </div>
 
@@ -118,19 +124,20 @@ include '../includes/define.php';
         </div>
     </section>
 
-    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo ASSET_IMG_URL; ?>itech-2.png);">
-        <div class="container pos-relative">
-            <div class="row text-left">
-                <div class="col-md-12 text-center" data-aos="zoom-in">
-                    <h3 class="pad-b20">LET’S WORK <span>TOGETHER</span> ON YOUR PROJECT</h3>
-                    <div class="col-md-12 no-padding mb-md-20">
-                        <a href="<?php echo SITE_ROOT_URL; ?>contact" class="btn btn-primary mt20">CONTACT US</a>
-                    </div>
+    <!-- Start Discussion start -->
+    <section class="start-discussion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 flex-align-center">
+                    <h3 class="text-white text-center">let's start a friendly discussion</h3>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <button class="btn">contact us</button>
                 </div>
             </div>
         </div>
-        <div class="bg-overlay dark"></div>
     </section>
+    <!-- Start Discussion ends -->
 
     <script>
         window.onload = function() {

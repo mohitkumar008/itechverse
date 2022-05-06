@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
+
 
 .logo img {
     width: 200px;
@@ -37,14 +38,16 @@
     background: #fbfbfb;
 } */
 
-
+.text-end {
+    text-align: end;
+}
 
 .w-70 {
     width: 70%;
 }
 
 .text-blue {
-    color: #0a4991;
+    color: #0a4991 !important;
 }
 
 .flex-align-center {
@@ -88,6 +91,7 @@
     transition: transform 0.25s ease-out;
 }
 
+.about-page-section .row:hover .underline:after,
 .web-serives .row:hover .underline:after {
     transform: scaleX(1);
     transform-origin: bottom left;
@@ -100,7 +104,7 @@
 
 .banner-text-wrapper {
     position: absolute;
-    top: 35%;
+    top: 25%;
     color: white;
     width: 100%;
     z-index: 1;
@@ -140,6 +144,10 @@
     color: white;
 }
 
+.text-orange {
+    color: #f46909;
+}
+
 .banner-text-wrapper p.animated-text {
     line-height: 1.5;
     margin: 0;
@@ -155,6 +163,14 @@ section#testimonials {
     display: flex;
     align-items: center;
     color: white;
+}
+
+#home-about .row p {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 100px 0;
+    line-height: 1.5;
+    color: #ddd4d4;
 }
 
 /* How we help you */
@@ -210,18 +226,26 @@ section.technology-use-section i {
 }
 
 /* web-services-section */
-section.web-serives .card {
-    width: 20em;
-    border: none;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
-    margin: 0 auto;
-    margin-bottom: 3em;
-    cursor: pointer;
-    transition: transform .5s;
+section.web-serives .row .col-sm-12 .card {
+    background-color: #e6e6e6;
+    margin-bottom: 30px;
+    height: 95%;
 }
 
-section.web-serives .card:hover {
-    transform: scale(1.1);
+section.web-serives .row .col-sm-12 .card h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+section.web-serives .row .col-sm-12 .card p {
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+
+section.wd-service-about p,
+section.gd-service-about p,
+section.dm-service-about p {
+    font-size: 1.5em;
 }
 
 .content-writing-service-card .card {
@@ -278,36 +302,26 @@ section.web-serives .card:hover {
 
 .digital-markting-cards .card {
     position: relative;
-    height: auto;
+    height: 90%;
     overflow: hidden;
     border-radius: 15px;
     margin: 0 auto;
     padding: 10px 20px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     transition: .5s;
-    width: 30em;
+    width: 25em;
     margin-bottom: 50px;
+}
+
+.digital-markting-cards .card img {
+    width: 30%;
+    margin: 0 auto;
 }
 
 .digital-markting-cards .card:hover {
     transform: scale(1.1);
 }
 
-.digital-markting-cards .card_red {
-    background: linear-gradient(-45deg, #ffec61, #f321d7);
-}
-
-.digital-markting-cards .card_violet {
-    background: linear-gradient(-45deg, #f403d1, #64b5f6);
-}
-
-.digital-markting-cards .card_three {
-    background: linear-gradient(-45deg, #24ff72, #9a4eff);
-}
-
-.digital-markting-cards .card_four {
-    background: linear-gradient(-45deg, #24c7ff, #7ae042)
-}
 
 .digital-markting-cards .card:before {
     content: '';
@@ -336,9 +350,14 @@ section.web-serives .card:hover {
     position: relative;
     margin: 20px 0 0;
     padding: 0;
-    color: #fff;
+    color: #0a4991;
     font-size: 28px;
+    font-weight: bolder;
     z-index: 2;
+}
+
+.digital-markting-cards .card-body p {
+    font-size: 1.1em;
 }
 
 .digital-markting-cards .price {
@@ -414,11 +433,10 @@ section.web-serives .card:hover {
 /* Graphic design page */
 .graphic-serives .card {
     border-radius: 10px;
+    height: 95%;
     border: none;
     margin: 0 auto;
-    /* width: 500px; */
     max-width: 100%;
-    /* min-height: 500px; */
     box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
     overflow: hidden;
     background-image: url(https://source.unsplash.com/collection/905011/1000x1000);
@@ -450,7 +468,7 @@ section.web-serives .card:hover {
 .graphic-serives .info {
     position: relative;
     width: 100%;
-    /* height: 500px; */
+    height: 100%;
     background-color: #fff;
     transform: translateY(100%) translateY(-50px) translateZ(0);
     transition: transform 0.5s ease-out;
@@ -490,6 +508,8 @@ section.web-serives .card:hover {
     line-height: 1.2;
     color: #1c5b72;
     padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 /* Tally Services */
@@ -739,11 +759,17 @@ h4 {
 }
 
 .feature-box-04 h4 {
-    font-size: 1.4em;
+    font-size: 1.3em;
+}
+
+.feature-box-04 p {
+    font-size: .9em;
+    font-weight: 600;
+    color: rgb(82, 86, 89);
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.3;
 }
 
@@ -789,7 +815,38 @@ li a {
 
 .section-title h2 {
     position: relative;
-    font-size: 40px;
+    font-size: 36px;
     line-height: 42px;
     color: #222222;
+}
+
+section.start-discussion {
+    background: #f46909;
+    padding: 50px 0;
+}
+
+section.start-discussion button {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+section.start-discussion button:hover {
+    background: white;
+    color: #f46909;
+}
+
+.flex-align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* about-page-section */
+/* section.about-page-section img {} */
+
+.consultation input,
+.consultation button {
+    border-radius: 15px 0;
 }

@@ -24,28 +24,24 @@ include '../includes/define.php';
     </section>
     <!-- Banner ends -->
 
-    <section class="bg-orange pad50">
+    <section class="bg-orange pad30">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="text-white mb-3">Digital Marketing</h1>
-                    <h5 class="text-white size-20">Building you tribe withklsndflksnkfnalsdnzfnaskdxnfklasndzx</h5>
+                    <h1 class="text-white">Digital Marketing <br> EXPERT SOLUTIONS</h1>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About section -->
-    <section class="pad50 bg-dark-grey service-about">
+    <section class="pad50 dm-service-about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6" data-aos="fade-right">
-                    <img src="<?php echo ASSET_IMG_URL; ?>digital-marketing.jpg" alt="digital-marketing.jpg">
-                </div>
-                <div class="col-md-6 col-sm-6 flex-align-center">
-                    <div class="ml50 no-ml-xs" data-aos="fade-left">
-                        <h2 class="pad-b10">Building Your Tribe With Clear, Insightful, & Inspiring Words</h2>
-                        <p>For us it's more than just content writing, it's right and relevant content that speaks to your audience directly. A smart customer searches for value in everything, and that's exactly what we provide to them. Our secret is quality over quantity of words. We help you build your tribe with quality & relevant content rather than quantity. Of course, we write for search engines but we do not ignore the human value in our writing.</p>
+                <div class="col-lg-8 col-md-10 col-sm-12 mx-auto flex-align-center">
+                    <div class="text-center" data-aos="fade-up">
+                        <p>Are you looking for a full-fledged digital marketing strategy, campaign, or other related solutions for your business?</p>
+                        <p>We have adopted effective, innovative and relevant approach implement digital marketing plan.</p>
                     </div>
 
                 </div>
@@ -60,48 +56,54 @@ include '../includes/define.php';
                 <div class="row" data-aos="fade-up">
                     <div class="col-12">
                         <div class="section-title text-center">
-                            <h3>Services</h3>
+                            <h3 class="text-blue">DIGITAL MARKETING SERVICES</h3>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-6 col-12" data-aos="flip-right">
-                        <div class="card card_red text-center">
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-6 col-12" data-aos="flip-right">
+                        <div class="card text-center">
+                            <img src="<?php echo ASSET_IMG_URL; ?>icons/seo-icon.png" alt="">
                             <div class="title">
                                 <h2>SEO</h2>
                             </div>
                             <div class="card-body">
-                                <p class="text-white">We help your business to be discovered by the right audience with our best SEO services. From in-depth analysis of user and keyword trends to drafting effective strategies for you according to your business needs. We follow specifically tailored strategies to meet your unique business needs to drive relevant traffic to your website.</p>
+                                <p class="">We help your business to be discovered by the right audience with our best SEO services. From in-depth analysis of user and keyword trends to drafting effective strategies for you according to your business needs. We follow specifically tailored strategies to meet your unique business needs to drive relevant traffic to your website.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-6 col-12" data-aos="flip-right">
-                        <div class="card card_violet text-center">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-6 col-12" data-aos="flip-right">
+                        <div class="card text-center">
+                            <img src="<?php echo ASSET_IMG_URL; ?>icons/smm-icon.png" alt="">
                             <div class="title">
                                 <h2>SMM</h2>
                             </div>
                             <div class="card-body">
-                                <p class="text-white">We provide you with everything your business needs to succeed on social media. We craft specific, custom social media services strategies relevant to your industry and help you to achieve your goals. We provide content that your audience is passionate about. We do it all to help your target audience.</p>
+                                <p class="">We provide you with everything your business needs to succeed on social media. We craft specific, custom social media services strategies relevant to your industry and help you to achieve your goals. We provide content that your audience is passionate about. We do it all to help your target audience.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-6 col-12" data-aos="flip-right">
-                        <div class="card card_three text-center">
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-6 col-12" data-aos="flip-right">
+                        <div class="card text-center">
+                            <img src="<?php echo ASSET_IMG_URL; ?>icons/ppc-icon.png" alt="">
                             <div class="title">
                                 <h2>PPC</h2>
                             </div>
                             <div class="card-body">
-                                <p class="text-white">We manage all paid advertising platforms, and we use our tried, tested, and totally effective tactics to get you the most conversions at the lowest cost. Our PPC management team ensures that every ad used in the campaign brings out the best ROI by testing click-through rates and conversion rates. </p>
+                                <p class="">We manage all paid advertising platforms, and we use our tried, tested, and totally effective tactics to get you the most conversions at the lowest cost. Our PPC management team ensures that every ad used in the campaign brings out the best ROI by testing click-through rates and conversion rates. </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-6 col-12" data-aos="flip-right">
-                        <div class="card card_four text-center">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-6 col-12" data-aos="flip-right">
+                        <div class="card text-center">
+                            <img src="<?php echo ASSET_IMG_URL; ?>icons/em-icon.png" alt="">
                             <div class="title">
                                 <h2>Email Markting</h2>
                             </div>
                             <div class="card-body">
-                                <p class="text-white">We start with understanding your business needs to use email marketing, and then we generate well-defined email marketing services that reach out to the customer inbox directly and boost customer engagement. Our ultimate goal is to help businesses improve customer engagement and conversion.</p>
+                                <p class="">We start with understanding your business needs to use email marketing, and then we generate well-defined email marketing services that reach out to the customer inbox directly and boost customer engagement. Our ultimate goal is to help businesses improve customer engagement and conversion.</p>
                             </div>
                         </div>
                     </div>
@@ -110,19 +112,50 @@ include '../includes/define.php';
         </div>
     </section>
 
-    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo ASSET_IMG_URL; ?>itech-2.png);">
-        <div class="container pos-relative">
-            <div class="row text-left">
-                <div class="col-md-12 text-center" data-aos="zoom-in">
-                    <h3 class="pad-b20">LET’S WORK <span>TOGETHER</span> ON YOUR PROJECT</h3>
-                    <div class="col-md-12 no-padding mb-md-20">
-                        <a href="<?php echo SITE_ROOT_URL; ?>contact" class="btn btn-primary mt20">CONTACT US</a>
+    <!-- Consultation starts -->
+    <section class="bg-blue pad-t50 pad-b50 consultation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-12 mx-auto text-center">
+                    <h4 class="text-white mb-4">Get Free Consultation form our Digital Marketing Experts!</h4>
+                    <p class="text-white mb-4" style="letter-spacing:1.5px;">Are you looking for a full-fledged digital marketing strategy, campaign, or other related solutions for your business? Regardless of your digital marketing needs, our award-winning company will create customised, result-oriented and industry-specific digital marketing solutions just for you.</p>
+                    <div class="row justify-content-center">
+                        <form action="">
+                            <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+                                <input type="text" placeholder="Name">
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+                                <input type="text" placeholder="Email">
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+                                <input type="text" placeholder="Phone Number">
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+                                <button class="btn btn-success">SUBMIT</button>
+                            </div>
+
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="bg-overlay dark"></div>
     </section>
+    <!-- Consultation ends -->
+
+    <!-- Start Discussion start -->
+    <section class="start-discussion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 flex-align-center">
+                    <h3 class="text-white text-center">let's start a friendly discussion</h3>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <button class="btn">contact us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start Discussion ends -->
 
     <script>
         window.onload = function() {
