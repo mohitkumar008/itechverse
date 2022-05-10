@@ -86,7 +86,7 @@
     height: 3px;
     bottom: 6px;
     left: 0;
-    background-color: #0087ca;
+    background-color: #0a4991 !important;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -167,8 +167,7 @@ section#testimonials {
 
 #home-about .row p {
     font-size: 1.3em;
-    text-align: center;
-    padding: 100px 0;
+    text-align: start;
     line-height: 1.5;
     color: #ddd4d4;
 }

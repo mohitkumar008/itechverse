@@ -142,21 +142,6 @@ include '../includes/define.php';
     </section>
     <!-- Consultation ends -->
 
-    <!-- Start Discussion start -->
-    <section class="start-discussion">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 flex-align-center">
-                    <h3 class="text-white text-center">let's start a friendly discussion</h3>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <button class="btn">contact us</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Start Discussion ends -->
-
     <script>
         window.onload = function() {
             $("#services").addClass("active");

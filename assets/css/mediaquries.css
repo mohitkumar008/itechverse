@@ -50,7 +50,7 @@
     }
 
     .popup {
-        width: 30%;
+        width: 40%;
     }
 
 }
@@ -103,7 +103,7 @@
     }
 
     .popup {
-        width: 35%;
+        width: 50%;
     }
 }
 
@@ -161,7 +161,7 @@
     }
 
     .popup {
-        width: 45%;
+        width: 80%;
     }
 
     .digital-markting-cards .card {
@@ -200,9 +200,37 @@
         width: 80%;
     }
 
+    .popup h4 {
+        font-size: 1.1em;
+    }
+
+    .popup .form .header {
+        margin: 10px 0px;
+    }
+
+    .popup .form .element input,
+    .popup .form .element textarea {
+        width: 100%;
+        padding: 5px 6px;
+        box-sizing: border-box;
+        outline: none;
+        border: 1px solid #aaa;
+        background: #fff;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+
+    .popup .form .element button {
+        width: 50%;
+        font-size: 12px;
+        padding: 5px 0px;
+    }
+
     .digital-markting-cards .card {
         width: 90%;
     }
+
+
 }
 
 @media (max-width: 380px) {

@@ -50,7 +50,7 @@ include '../includes/define.php';
     <!-- About section ends -->
 
     <!-- Our Services -->
-    <section class="pad-t70 pad-b70 bg-grey" data-aos="fade-up">
+    <!-- <section class="pad-t70 pad-b70 bg-grey" data-aos="fade-up">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
@@ -90,11 +90,18 @@ include '../includes/define.php';
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Our Web Services ends -->
 
     <section class="pad-t70 pad-b70 content-writing-service-card">
         <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title text-center" data-aos="fade-up">
+                        <h3>What you are looking for ?</h3>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb50 d-flex" data-aos="fade-up">
                     <div class="card card-1">
@@ -132,7 +139,7 @@ include '../includes/define.php';
                     <h3 class="text-white text-center">let's start a friendly discussion</h3>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <button class="btn">contact us</button>
+                    <button class="btn" onclick="openEnquiryForm()">contact us</button>
                 </div>
             </div>
         </div>

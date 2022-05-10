@@ -25,7 +25,7 @@ include './includes/define.php';
                     <h3 class="text-white">IN THE DIGITAL WORLD! </h3>
                     <p class="animated-text">We Provide <span style="color:#ff7b25;" class="typing"></span></p>
                     <p>
-                        <a class="get-start-btn" onclick="openLoginForm()">Get Started with Us</a>
+                        <a class="get-start-btn" onclick="openEnquiryForm()">Get Started with Us</a>
                     </p>
                 </div>
                 <div class="col-md-3"></div>
@@ -34,30 +34,7 @@ include './includes/define.php';
         <video src="<?php echo ASSET_IMG_URL; ?>banner-video-2.mp4" muted="" loop="" autoplay="" class="banner-video"></video>
     </section>
 
-    <div class="popup">
-        <div class="popup-close" onclick="closeLoginForm()">&times;</div>
-        <div class="form">
-            <div class="avatar">
-                <img src="<?php echo ASSET_IMG_URL; ?>enquiry_image.jpg" alt="">
-            </div>
-            <div class="header">
-                Enquiry Form
-            </div>
-            <div class="element">
-                <span id="field_error" class="text-danger"></span>
-                <input type="text" id="e_name" placeholder="Full Name*">
-            </div>
-            <div class="element">
-                <input type="email" id="e_email" placeholder="Email*">
-            </div>
-            <div class="element">
-                <input type="tel" id="e_phone" placeholder="Phone*">
-            </div>
-            <div class="element">
-                <button onclick="submitEnquiry();">Submit</button>
-            </div>
-        </div>
-    </div>
+
     <!-- Banner ends -->
 
     <!-- Services -->
@@ -149,7 +126,7 @@ include './includes/define.php';
                     <h3 class="text-white text-center">let's start a friendly discussion</h3>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <button class="btn">contact us</button>
+                    <button class="btn" onclick="openEnquiryForm()">contact us</button>
                 </div>
             </div>
         </div>
@@ -165,7 +142,8 @@ include './includes/define.php';
                     <!-- <img src="<?php echo ASSET_IMG_URL; ?>about-img-2.jpg" alt=""> -->
 
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 bg-blue">
+                <div class="col-lg-4 col-md-6 col-12 bg-blue pad-t100 pad-b100">
+                    <h3 data-aos="fade-up" class="text-orange mb-2">Who we are ?</h3>
                     <p data-aos="fade-up">I-Techverse Solutions India Pvt Ltd is a Technology Company in India founded by Mr. Sanmati Jain and Mrs. Sakshi Jain. The company provides services in India to help business enterprises to rebuild their image in the Digital world and to simplify their required tasks. The Company's Technology services are built on the belief in Innovation and Creativity and a continuous focus on delivering strategically driven Solutions to the clients.The company works in partnership with Tally Solutions.</p>
                 </div>
 

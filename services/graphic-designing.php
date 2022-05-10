@@ -110,7 +110,7 @@ include '../includes/define.php';
                     <h3 class="text-white text-center">let's start a friendly discussion</h3>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <button class="btn">contact us</button>
+                    <button class="btn" type="button" onclick="openEnquiryForm()">contact us</button>
                 </div>
             </div>
         </div>

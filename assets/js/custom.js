@@ -28,7 +28,7 @@ $(document).ready(function () {
 
 });
 
-function openLoginForm() {
+function openEnquiryForm() {
     document.body.classList.add("showLoginForm");
 }
 function closeLoginForm() {

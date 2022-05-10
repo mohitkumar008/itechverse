@@ -33,7 +33,7 @@ include './includes/define.php';
             <div class="row pad50">
                 <div class="col-md-6 col-sm-6 flex-align-center" data-aos="fade-right">
                     <div class="ml50 no-ml-xs">
-                        <h1 class="pad-b10 text-blue underline mb10">about</h1>
+                        <h1 class="pad-b10 text-blue underline mb10">Who we are ?</h1>
                         <p>
                             I-Techverse Solutions India Pvt. Ltd. is a Technology Company in India founded by Mrs. Sakshi Jain and Mr. Sanmati Jain. The company provides services in India to help business enterprises to rebuild their image in the digital world and to simplify their required tasks. The Company's Technology services are built on the belief in Innovation and Creativity and a continuous focus on delivering strategically driven solutions to the clients.
                             The company works in partnership with Tally Solutions.
@@ -79,76 +79,12 @@ include './includes/define.php';
         </div>
     </section>
 
-    <!-- Testimonials -->
-    <section class="pad-t30 pad-b30" id="testimonials" data-aos="fade-up">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title text-center white">
-                    <h2 class="white">Testimonials</h2>
-                </div>
-            </div>
-        </div>
-        <div class="container pad-lr-40">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="testimonial-item text-center white">
-                                <img src="<?php echo ASSET_IMG_URL; ?>dummy-pic.jpg" alt="" class="img-circle">
-                                <p><span class="fa fa-quote-left mr10 size-20 v-top theme-color"></span> In Today's World making an online presence is very important for every business, but for that, every business needs some guidance and support which I got from the I-Techverse Team. I highly recommend their Web service to others to build a good website. <span class="fa fa-quote-right ml10 size-20 v-bottom theme-color"></span></p>
-                                <div class="client">Rahul Pal</div>
-                                <div class="separator mt20"></div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-item text-center white">
-                                <img src="<?php echo ASSET_IMG_URL; ?>dummy-pic.jpg" alt="" class="img-circle">
-                                <p><span class="fa fa-quote-left mr10 size-20 v-top theme-color"></span> I want to thank you for providing quality service by I-Techverse. We sincerely appreciate your efficient, gracious customer service. We will continue to recommend your services to other companies and contacts.<span class="fa fa-quote-right ml10 size-20 v-bottom theme-color"></span></p>
-                                <div class="client">Kaushal Nishad</div>
-                                <div class="separator mt20"></div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-item text-center white">
-                                <img src="<?php echo ASSET_IMG_URL; ?>dummy-pic.jpg" alt="" class="img-circle">
-                                <p><span class="fa fa-quote-left mr10 size-20 v-top theme-color"></span> My overall experience with I-Techverse is excellent. I-Techverse isn’t just building our website, they’re also working to enhance our digital presence. As Digital Marketing is a long theirconsultation showed me results in just two months, the ranking has gone up organically.<span class="fa fa-quote-right ml10 size-20 v-bottom theme-color"></span></p>
-                                <div class="client">Dhanush</div>
-                                <div class="separator mt20"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- <div class="bg-overlay dark"></div> -->
-    </section>
-    <!-- Testimonials ends -->
     <section class="bg-orange pad20"></section>
 
     <script>
         window.onload = function() {
             $("#about").addClass("active");
         }
-        // Owl carousel 
-        $(document).ready(function() {
-
-            $(".owl-carousel").owlCarousel({
-                loop: true,
-                margin: 10,
-                responsiveClass: true,
-                singleItem: true,
-                items: 1,
-                rewindNav: true,
-                autoPlay: true,
-                slideSpeed: 300,
-                paginationSpeed: 500,
-                singleItem: true,
-                // dotsEach: 2,
-            });
-
-        });
     </script>
     <?php include './includes/footer.php' ?>
     <?php include './includes/bottomjs.php' ?>

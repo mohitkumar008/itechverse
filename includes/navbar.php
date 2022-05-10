@@ -38,3 +38,43 @@
     </nav>
 </header>
 <!-- End Header -->
+<div class="popup">
+    <div class="popup-close" onclick="closeLoginForm()">&times;</div>
+    <div class="form">
+        <div class="header ">
+            <h4 class="text-orange">Quick Enquiry</h4>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+
+                <p class="text-center text-white">Contact us quickly and easily using the following form and we will get back to you ASAP!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="element">
+                    <span id="field_error" class="text-danger"></span>
+                    <input type="text" id="e_name" placeholder="Full Name*">
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="element">
+                    <input type="email" id="e_email" placeholder="Email*">
+                </div>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="element">
+                    <input type="tel" id="e_phone" placeholder="Phone*">
+                </div>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="element">
+                    <textarea name="" id="enquiry_msg" id="" cols="30" rows="10" placeholder="Enquiry Message"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="element text-center">
+            <button onclick="submitEnquiry();">Send Enquiry</button>
+        </div>
+    </div>
+</div>
