@@ -64,6 +64,7 @@
 <!-- jquery latest version -->
 <script src="<?php echo ASSET_URL; ?>assets/js/jquery-3.1.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script defer src="https://widget.tochat.be/bundle.js?key=f4413b01-fa85-48b8-92e6-e4e24f994cf8"></script>
 
 
 

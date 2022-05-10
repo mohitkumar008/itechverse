@@ -241,6 +241,13 @@ section.web-serives .row .col-sm-12 .card p {
     line-height: 1.4;
 }
 
+section.wd-service-about,
+section.gd-service-about,
+section.dm-service-about {
+    background-color: #f8f8f8;
+}
+
+
 section.wd-service-about p,
 section.gd-service-about p,
 section.dm-service-about p {
@@ -757,6 +764,11 @@ h4 {
     font-size: 1.4em;
 }
 
+.h5,
+h5 {
+    font-size: 1.75rem;
+}
+
 .feature-box-04 h4 {
     font-size: 1.3em;
 }
@@ -786,7 +798,7 @@ li a {
 }
 
 .navbar.navbar-default .navbar-nav li.drop ul.drop-down {
-    background: rgb(255 255 255 / 95%) !important;
+    background: rgb(232 227 227 / 95%) !important
 }
 
 .navbar.navbar-default .navbar-nav li.drop ul.drop-down li a {

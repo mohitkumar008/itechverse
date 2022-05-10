@@ -16,7 +16,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="" id="home"><a class="nav-link" href="<?php echo ASSET_URL; ?>">Home</a></li>
                     <li id="about"><a href="<?php echo ASSET_URL; ?>about" class="nav-link">About</a></li>
-                    <li class="drop" id="services"><a href="#" class="nav-link">Services<i class="fa fa-angle-down ml5"></i></a>
+                    <li class="drop" id="services"><a class="nav-link">Services<i class="fa fa-angle-down ml5"></i></a>
                         <ul class="drop-down">
                             <li><a href="<?php echo ASSET_URL; ?>services/web-development">Web Development</a></li>
                             <li><a href="<?php echo ASSET_URL; ?>services/digital-marketing">Digital Marketing</a></li>
@@ -24,7 +24,7 @@
                             <li><a href="<?php echo ASSET_URL; ?>services/content-writing">Content Writing</a></li>
                         </ul>
                     </li>
-                    <li class="drop" id="tally"><a href="#" class="nav-link">Tally<i class="fa fa-angle-down ml5"></i></a>
+                    <li class="drop" id="tally"><a class="nav-link">Tally<i class="fa fa-angle-down ml5"></i></a>
                         <ul class="drop-down">
                             <li><a href="<?php echo ASSET_URL; ?>tally/tally-products">Tally Product</a></li>
                             <li><a href="<?php echo ASSET_URL; ?>tally/tally-services">Tally Services</a></li>

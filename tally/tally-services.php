@@ -196,22 +196,22 @@ include '../includes/define.php';
                                     <img src="<?php echo ASSET_IMG_URL; ?>digital-sign.png" class="img-fluid w-50" alt="digital-sign.png">
                                 </div>
                                 <div class="col-md-12 col-sm-12 tally-serives-point" data-aos="fade-up">
-                                    <h3 class="text-blue">Reports with digital signature</h3>
+                                    <h5 class="text-blue">Reports with digital signature</h5>
                                     <ul>
                                         <li>You can affix the digital signature to the generated reports that are configured to include the digital signature. </li>
                                     </ul>
                                     <br>
-                                    <h3 class="text-blue">Multi-Account reports with digital signature</h3>
+                                    <h5 class="text-blue">Multi-Account reports with digital signature</h5>
                                     <ul>
                                         <li>The digital signature can be attached to the multiple reports created in accounting. </li>
                                     </ul>
                                     <br>
-                                    <h3 class="text-blue">E-mail documents with digital signature</h3>
+                                    <h5 class="text-blue">E-mail documents with digital signature</h5>
                                     <ul>
                                         <li>You can email a digitally signed voucher or report with the digital signature feature of Tally Prime.</li>
                                     </ul>
                                     <br>
-                                    <h3 class="text-blue">Share Digitally Signed Documents</h3>
+                                    <h5 class="text-blue">Share Digitally Signed Documents</h5>
                                     <ul>
                                         <li>After configuration, you can share the digitally signed documents with the parties involved for several purposes through Email, Export, or print as required.</li>
                                     </ul>
@@ -232,22 +232,22 @@ include '../includes/define.php';
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-sm-12 tally-serives-point">
-                                    <h3 class="text-blue">Activate / Deactivate voucher type </h3>
+                                    <h5 class="text-blue">Activate / Deactivate voucher type </h5>
                                     <ul>
                                         <li>You can activate/deactivate voucher types as per your business need from the voucher type creation/alteration screen.</li>
                                     </ul>
                                     <br>
-                                    <h3 class="text-blue">Different voucher numbering methods</h3>
+                                    <h5 class="text-blue">Different voucher numbering methods</h5>
                                     <ul>
                                         <li>You can use the required method of voucher numbering as required from the voucher type creation/alteration screen. </li>
                                     </ul>
                                     <br>
-                                    <h3 class="text-blue">Specify the prefix and suffix details for numbering the vouchers</h3>
+                                    <h5 class="text-blue">Specify the prefix and suffix details for numbering the vouchers</h5>
                                     <ul>
                                         <li>You can restart the numbering of your vouchers by creating a new voucher type and specifying the applicable dates, prefix, suffix, and other details, as needed.</li>
                                     </ul>
                                     <br>
-                                    <h3 class="text-blue">Effective dates for the vouchers</h3>
+                                    <h5 class="text-blue">Effective dates for the vouchers</h5>
                                     <ul>
                                         <li>You can use effective dates for vouchers so that the overdue/aging will be considered from the effective date and not from the voucher date.</li>
                                     </ul>
@@ -259,21 +259,20 @@ include '../includes/define.php';
             </div>
     </section>
 
-
-
-    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo ASSET_IMG_URL; ?>itech-2.png);">
-        <div class="container pos-relative">
-            <div class="row text-left">
-                <div class="col-md-12 text-center">
-                    <h3 class="pad-b20">LET’S WORK <span>TOGETHER</span> ON YOUR PROJECT</h3>
-                    <div class="col-md-12 no-padding mb-md-20">
-                        <a href="<?php echo SITE_ROOT_URL; ?>contact" class="btn btn-primary mt20">CONTACT US</a>
-                    </div>
+    <!-- Start Discussion start -->
+    <section class="start-discussion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 flex-align-center">
+                    <h3 class="text-white text-center">let's start a friendly discussion</h3>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <button class="btn" type="button" onclick="openEnquiryForm()">contact us</button>
                 </div>
             </div>
         </div>
-        <div class="bg-overlay dark"></div>
     </section>
+    <!-- Start Discussion ends -->
 
     <script>
         function openTab(evt, Services) {

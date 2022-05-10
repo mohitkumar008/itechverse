@@ -370,22 +370,20 @@ include '../includes/define.php';
             </div>
     </section>
 
-
-
-
-    <section class="pad50 call-to-action-2 parallax pos-relative" style="background-image: url(<?php echo ASSET_IMG_URL; ?>itech-2.png);">
-        <div class="container pos-relative">
-            <div class="row text-left">
-                <div class="col-md-12 text-center">
-                    <h3 class="pad-b20">LET’S WORK <span>TOGETHER</span> ON YOUR PROJECT</h3>
-                    <div class="col-md-12 no-padding mb-md-20">
-                        <a href="<?php echo SITE_ROOT_URL; ?>contact" class="btn btn-primary mt20">CONTACT US</a>
-                    </div>
+    <!-- Start Discussion start -->
+    <section class="start-discussion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 flex-align-center">
+                    <h3 class="text-white text-center">let's start a friendly discussion</h3>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <button class="btn" type="button" onclick="openEnquiryForm()">contact us</button>
                 </div>
             </div>
         </div>
-        <div class="bg-overlay dark"></div>
     </section>
+    <!-- Start Discussion ends -->
 
     <script>
         function openTab(evt, Services) {
