@@ -50,10 +50,10 @@
                 <p class="text-center text-white">Contact us quickly and easily using the following form and we will get back to you ASAP!</p>
             </div>
         </div>
+        <span id="field_error" class="text-white"></span>
         <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div class="element">
-                    <span id="field_error" class="text-danger"></span>
                     <input type="text" id="e_name" placeholder="Full Name*">
                 </div>
             </div>
@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="element text-center">
-            <button onclick="submitEnquiry();">Send Enquiry</button>
+            <button onclick="submitEnquiry('<?php echo ASSET_URL; ?>');">Send Enquiry</button>
         </div>
     </div>
 </div>

@@ -195,7 +195,7 @@ include '../includes/define.php';
                                 <div class="col-lg-6 col-md-12 text-center">
                                     <img src="<?php echo ASSET_IMG_URL; ?>digital-sign.png" class="img-fluid w-50" alt="digital-sign.png">
                                 </div>
-                                <div class="col-md-12 col-sm-12 tally-serives-point" data-aos="fade-up">
+                                <div class="col-md-12 col-sm-12 tally-serives-point">
                                     <h5 class="text-blue">Reports with digital signature</h5>
                                     <ul>
                                         <li>You can affix the digital signature to the generated reports that are configured to include the digital signature. </li>

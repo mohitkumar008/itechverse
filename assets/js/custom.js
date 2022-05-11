@@ -83,11 +83,12 @@ function submitContactForm() {
 }
 
 // Display an info toast with no title
-function submitEnquiry() {
+function submitEnquiry(siteurl) {
 
     let name = $('#e_name').val();
     let email = $('#e_email').val();
     let phone = $('#e_phone').val();
+    let msg = $('#enquiry_msg').val();
     if (name == "" || email == "" || phone == "") {
         $('#field_error').html('*All fields are required')
     }
@@ -95,10 +96,12 @@ function submitEnquiry() {
         $('#field_error').html('')
         $.ajax({
             type: 'POST',
-            url: 'manage_forms.php',
-            data: `name=${name}&email=${email}&phone=${phone}&formtype=enquiryform&submit`,
+            url: siteurl + 'manage_forms.php',
+            data: `name=${name}&email=${email}&phone=${msg}&msg=${msg}&formtype=enquiryform&submit`,
             success: function (result) {
+                console.log(result);
                 if (result == 'submit') {
+
                     closeLoginForm();
                     $('input').val('');
                     toastr.options = {
