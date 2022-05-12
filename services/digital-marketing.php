@@ -120,18 +120,19 @@ include '../includes/define.php';
                     <h4 class="text-white mb-4">Get Free Consultation form our Digital Marketing Experts!</h4>
                     <p class="text-white mb-4" style="letter-spacing:1.5px;">Are you looking for a full-fledged digital marketing strategy, campaign, or other related solutions for your business? Regardless of your digital marketing needs, our award-winning company will create customised, result-oriented and industry-specific digital marketing solutions just for you.</p>
                     <div class="row justify-content-center">
-                        <form action="">
+                        <form>
                             <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
-                                <input type="text" placeholder="Name">
+                                <input type="text" id="c_name" placeholder="Full Name*">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
-                                <input type="text" placeholder="Email">
+                                <input type="email" id="c_email" placeholder="Email*">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
-                                <input type="text" placeholder="Phone Number">
+                                <input type="tel" id="c_phone" placeholder="Phone*">
+                                <input type="hidden" id="c_msg" value="FREE CONSULTATION">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
-                                <button class="btn btn-success">SUBMIT</button>
+                                <button type="button" class="btn btn-success" onclick="submitConsultationEnquiry('<?php echo ASSET_URL; ?>');">SUBMIT</button>
                             </div>
 
                         </form>

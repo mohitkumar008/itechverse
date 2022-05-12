@@ -232,7 +232,7 @@ section.web-serives .row .col-sm-12 .card {
 }
 
 section.web-serives .row .col-sm-12 .card h3 {
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
@@ -252,6 +252,7 @@ section.wd-service-about p,
 section.gd-service-about p,
 section.dm-service-about p {
     font-size: 1.5em;
+    color: black;
 }
 
 .content-writing-service-card .card {
@@ -761,7 +762,7 @@ h3 {
 
 .h4,
 h4 {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .h5,

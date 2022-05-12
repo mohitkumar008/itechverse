@@ -159,104 +159,12 @@ include '../includes/define.php';
                             <li><img src="<?php echo ASSET_IMG_URL; ?>icons/arrow.png" alt=""><span> Business operational costs are reduced with the extended capability of Tally software.</span></li>
                             <li><img src="<?php echo ASSET_IMG_URL; ?>icons/arrow.png" alt=""><span> Save your efficient time with customization as no manual work will need to be done.</span></li>
                             <li><img src="<?php echo ASSET_IMG_URL; ?>icons/arrow.png" alt=""><span> Remain ahead of your competition with the enhanced and modified functionality of Tally software.</span></li>
+                            <li><img src="<?php echo ASSET_IMG_URL; ?>icons/arrow.png" alt=""><span> With Tally Customization, you can alter the predefined voucher type according to your invoicing requirements. </span></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="tally-serives">
-        <div class="container">
-            <div class="row" data-aos="fade-up">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                    <ul class="tab flex-align-center justify-content-center">
-                        <li class="p-5">
-                            <button class="tablinks" onclick="openTab(event, 'product-1')" id="defaultOpen">Digital Signature</button>
-                        </li>
-                        <li class="p-5">
-                            <button class="tablinks" onclick="openTab(event, 'product-2')">Voucher Alteration</button>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                    <!-- Digital Signature -->
-                    <div class="row tabcontent" id="product-1">
-                        <div class="col-12 mb50">
-                            <div class="row bg-grey pad50">
-                                <div class="col-lg-6 col-md-12 ">
-                                    <div class="no-ml-xs" data-aos="fade-up">
-                                        <h4 class="pad-b10 text-blue mb10">Digital Signature</h4>
-                                        <p>Digital Signature is an efficient, economical, and convenient way to digitally sign and authenticate documents with great ease. It allows you to share documents with the concerned individual or party while assuring the integrity and authenticity of the same. It also helps in avoiding document tampering and impersonation during transit.</p>
-                                        <br>
-                                        <p>It includes:</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 text-center">
-                                    <img src="<?php echo ASSET_IMG_URL; ?>digital-sign.png" class="img-fluid w-50" alt="digital-sign.png">
-                                </div>
-                                <div class="col-md-12 col-sm-12 tally-serives-point">
-                                    <h5 class="text-blue">Reports with digital signature</h5>
-                                    <ul>
-                                        <li>You can affix the digital signature to the generated reports that are configured to include the digital signature. </li>
-                                    </ul>
-                                    <br>
-                                    <h5 class="text-blue">Multi-Account reports with digital signature</h5>
-                                    <ul>
-                                        <li>The digital signature can be attached to the multiple reports created in accounting. </li>
-                                    </ul>
-                                    <br>
-                                    <h5 class="text-blue">E-mail documents with digital signature</h5>
-                                    <ul>
-                                        <li>You can email a digitally signed voucher or report with the digital signature feature of Tally Prime.</li>
-                                    </ul>
-                                    <br>
-                                    <h5 class="text-blue">Share Digitally Signed Documents</h5>
-                                    <ul>
-                                        <li>After configuration, you can share the digitally signed documents with the parties involved for several purposes through Email, Export, or print as required.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Voucher Alteration -->
-                    <div class="row tabcontent" id="product-2">
-                        <div class="col-12 mb50">
-                            <div class="row bg-grey pad50">
-                                <div class="col-lg-12 col-md-12 ">
-                                    <div class="no-ml-xs" data-aos="fade-up">
-                                        <h4 class="pad-b10 text-blue mb10">Voucher Alteration </h4>
-                                        <p>With TallyPrime, you can alter the predefined voucher type according to your invoicing requirements.</p>
-                                        <br>
-                                        <p>It includes:</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-12 col-sm-12 tally-serives-point">
-                                    <h5 class="text-blue">Activate / Deactivate voucher type </h5>
-                                    <ul>
-                                        <li>You can activate/deactivate voucher types as per your business need from the voucher type creation/alteration screen.</li>
-                                    </ul>
-                                    <br>
-                                    <h5 class="text-blue">Different voucher numbering methods</h5>
-                                    <ul>
-                                        <li>You can use the required method of voucher numbering as required from the voucher type creation/alteration screen. </li>
-                                    </ul>
-                                    <br>
-                                    <h5 class="text-blue">Specify the prefix and suffix details for numbering the vouchers</h5>
-                                    <ul>
-                                        <li>You can restart the numbering of your vouchers by creating a new voucher type and specifying the applicable dates, prefix, suffix, and other details, as needed.</li>
-                                    </ul>
-                                    <br>
-                                    <h5 class="text-blue">Effective dates for the vouchers</h5>
-                                    <ul>
-                                        <li>You can use effective dates for vouchers so that the overdue/aging will be considered from the effective date and not from the voucher date.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
     </section>
 
     <!-- Start Discussion start -->

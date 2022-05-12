@@ -34,11 +34,11 @@
                 </div>
                 <div class="sidebar-post">
                     <ul class="d-flex flex-column">
-                        <li><a href="<?php echo SITE_ROOT_URL; ?>privacy-policy">Web Development </a></li>
-                        <li><a href="<?php echo SITE_ROOT_URL; ?>terms-and-conditions">Graphic Designing </a></li>
-                        <li><a href="<?php echo SITE_ROOT_URL; ?>contact">Content Writing</a></li>
-                        <li><a href="<?php echo SITE_ROOT_URL; ?>contact">Digital Marketing</a></li>
-                        <li><a href="<?php echo SITE_ROOT_URL; ?>contact">Tally</a></li>
+                        <li><a href="<?php echo ASSET_URL; ?>services/web-development">Web Development </a></li>
+                        <li><a href="<?php echo ASSET_URL; ?>services/graphic-designing">Graphic Designing </a></li>
+                        <li><a href="<?php echo ASSET_URL; ?>services/content-writing">Content Writing</a></li>
+                        <li><a href="<?php echo ASSET_URL; ?>services/digital-marketing">Digital Marketing</a></li>
+                        <li><a href="<?php echo ASSET_URL; ?>tally/tally-services">Tally Services</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,19 +48,12 @@
                 </div>
                 <div class="sidebar-post">
                     <ul class="d-flex flex-column">
-                        <li><a href="<?php echo SITE_ROOT_URL; ?>privacy-policy">Privacy Policy</a></li>
-                        <li><a href="<?php echo SITE_ROOT_URL; ?>terms-and-conditions">Terms & Conditions</a></li>
-                        <li><a href="<?php echo SITE_ROOT_URL; ?>contact">Contact Us</a></li>
+                        <li><a href="<?php echo ASSET_URL; ?>privacy-policy">Privacy Policy</a></li>
+                        <li><a href="<?php echo ASSET_URL; ?>terms-and-conditions">Terms & Conditions</a></li>
+                        <li><a href="<?php echo ASSET_URL; ?>contact">Contact Us</a></li>
                     </ul>
                 </div>
-                <div>
-                    <form>
-                        <div class="form-group footer-subscribe">
-                            <input type="email" class="form-control" id="Email1" placeholder="Subscribe with us">
-                            <button type="submit" class="btn btn-primary">Join</button>
-                        </div>
-                    </form>
-                </div>
+
             </div>
         </div>
     </div>

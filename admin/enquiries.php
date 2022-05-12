@@ -66,6 +66,7 @@ $query = mysqli_query($conn, $stmt);
                                                             <th class="sorting sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th>
                                                             <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Email: activate to sort column ascending">Email</th>
                                                             <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Phone: activate to sort column ascending">Phone</th>
+                                                            <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Message: activate to sort column ascending">Message</th>
                                                             <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Adden on: activate to sort column ascending">Adden on</th>
                                                         </tr>
                                                     </thead>
@@ -77,6 +78,7 @@ $query = mysqli_query($conn, $stmt);
                                                                 <td class="dtr-control sorting_1" tabindex="0"><?php echo $row['name']; ?></td>
                                                                 <td><?php echo $row['email']; ?></td>
                                                                 <td><?php echo $row['phone']; ?></td>
+                                                                <td><?php echo $row['msg']; ?></td>
                                                                 <td><?php echo $row['added_on']; ?></td>
                                                             </tr>
                                                         <?php

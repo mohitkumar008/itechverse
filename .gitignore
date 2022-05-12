@@ -1,1 +1,3 @@
-includes/define.php
+/includes/define.php
+/includes/connection.php
+/admin/includes/connection.php

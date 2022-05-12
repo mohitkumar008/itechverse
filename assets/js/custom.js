@@ -97,12 +97,56 @@ function submitEnquiry(siteurl) {
         $.ajax({
             type: 'POST',
             url: siteurl + 'manage_forms.php',
-            data: `name=${name}&email=${email}&phone=${msg}&msg=${msg}&formtype=enquiryform&submit`,
+            data: `name=${name}&email=${email}&phone=${phone}&msg=${msg}&formtype=enquiryform&submit`,
             success: function (result) {
                 console.log(result);
                 if (result == 'submit') {
 
                     closeLoginForm();
+                    $('input').val('');
+                    toastr.options = {
+                        "closeButton": false,
+                        "debug": false,
+                        "newestOnTop": false,
+                        "progressBar": false,
+                        "positionClass": "toast-top-center",
+                        "preventDuplicates": false,
+                        "onclick": null,
+                        "showDuration": "300",
+                        "hideDuration": "1000",
+                        "timeOut": "5000",
+                        "extendedTimeOut": "1000",
+                        "showEasing": "swing",
+                        "hideEasing": "linear",
+                        "showMethod": "fadeIn",
+                        "hideMethod": "fadeOut"
+                    };
+                    toastr["success"]("Thank you for enquiry. Our team will reach you soon!", "");
+
+                }
+            }
+        });
+    }
+}
+function submitConsultationEnquiry(siteurl) {
+
+    let name = $('#c_name').val();
+    let email = $('#c_email').val();
+    let phone = $('#c_phone').val();
+    let msg = $('#c_msg').val();
+    if (name == "" || email == "" || phone == "") {
+        $('#field_error').html('*All fields are required')
+    }
+    else {
+        $('#field_error').html('')
+        $.ajax({
+            type: 'POST',
+            url: siteurl + 'manage_forms.php',
+            data: `name=${name}&email=${email}&phone=${phone}&msg=${msg}&formtype=enquiryform&submit`,
+            success: function (result) {
+                console.log(result);
+                if (result == 'submit') {
+
                     $('input').val('');
                     toastr.options = {
                         "closeButton": false,
