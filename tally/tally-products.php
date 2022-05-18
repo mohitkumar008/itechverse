@@ -18,7 +18,7 @@ include '../includes/define.php';
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="<?php echo ASSET_IMG_URL; ?>banner/tally-product.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo ASSET_IMG_URL; ?>banner/Tally-product-banner2.jpg" class="img-responsive" alt="">
                 </div>
             </div>
         </div>
