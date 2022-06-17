@@ -1,5 +1,7 @@
 <?php
 include './includes/define.php';
+include './includes/connection.php';
+$page_name = "contact";
 ?>
 <!DOCTYPE html>
 <html lang="en">

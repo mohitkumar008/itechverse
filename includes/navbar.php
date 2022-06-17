@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="logo" href="./">
+                <a class="logo" href="<?php echo ASSET_URL; ?>">
                     <img src="<?php echo ASSET_URL; ?>images/Itcehverse-logo.png" alt="Itcehverse-logo">
                 </a>
             </div>

@@ -13,9 +13,20 @@
 
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="author" content="ChitrakootWeb">
-<meta name="description" content="">
+<meta name="author" content="Itechverse Solutions Private Limited">
+
+<?php
+// include './includes/connection.php';
+$meta_stmt = "SELECT * FROM `meta_tags` where `page`='" . $page_name . "'";
+$meta_query = mysqli_query($conn, $meta_stmt);
+$meta_fetch = mysqli_fetch_assoc($meta_query);
+?>
+
+<meta name="title" content="<?= $meta_fetch['title']; ?>">
+<meta name="description" content="<?= $meta_fetch['description']; ?>">
+<meta name="keywords" content="<?= $meta_fetch['keywords']; ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="google-site-verification" content="JEFLAUu3Le4FjJW2Wd8KWsoluWz_gKpAVNFPkqR75CY" />
 
 <!-- favicons -->
 <link rel="shortcut icon" href="<?php echo ASSET_URL; ?>assets/favicon/favicon.ico">

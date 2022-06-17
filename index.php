@@ -1,6 +1,7 @@
 <?php
 include './includes/define.php';
-
+include './includes/connection.php';
+$page_name = "home";
 ?>
 
 <!DOCTYPE html>
@@ -158,7 +159,7 @@ include './includes/define.php';
         <div class="container-fluid">
             <div class="row mx-2  pad-b30" data-aos="fade-up" data-aos-duration="700">
                 <div class="col-12 text-center">
-                    <h2 class="font-800">Here is how we help you</h2>
+                    <h2 class="font-800">how we help you?</h2>
                     <h4 class="text-orange">reach your goals with the right approach</h4>
                 </div>
             </div>

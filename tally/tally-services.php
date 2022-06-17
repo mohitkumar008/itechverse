@@ -1,5 +1,7 @@
 <?php
 include '../includes/define.php';
+include '../includes/connection.php';
+$page_name = "tally-services";
 ?>
 <!DOCTYPE html>
 <html lang="en">
