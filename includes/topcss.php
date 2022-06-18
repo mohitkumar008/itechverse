@@ -11,16 +11,17 @@
     gtag('config', 'G-4YTWY1E9G8');
 </script>
 
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="author" content="Itechverse Solutions Private Limited">
-
 <?php
 // include './includes/connection.php';
 $meta_stmt = "SELECT * FROM `meta_tags` where `page`='" . $page_name . "'";
 $meta_query = mysqli_query($conn, $meta_stmt);
 $meta_fetch = mysqli_fetch_assoc($meta_query);
 ?>
+<title><?= $meta_fetch['title']; ?></title>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="author" content="Itechverse Solutions Private Limited">
+
 
 <meta name="title" content="<?= $meta_fetch['title']; ?>">
 <meta name="description" content="<?= $meta_fetch['description']; ?>">

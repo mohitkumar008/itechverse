@@ -7,7 +7,6 @@ $page_name = "web-development";
 <html lang="en">
 
 <head>
-    <title>I-techverse</title>
     <?php include '../includes/topcss.php' ?>
 </head>
 
