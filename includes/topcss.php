@@ -27,8 +27,8 @@ $meta_fetch = mysqli_fetch_assoc($meta_query);
 <meta name="description" content="<?= $meta_fetch['description']; ?>">
 <meta name="keywords" content="<?= $meta_fetch['keywords']; ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<meta name="google-site-verification" content="JEFLAUu3Le4FjJW2Wd8KWsoluWz_gKpAVNFPkqR75CY" />
-
+<!-- <meta name="google-site-verification" content="JEFLAUu3Le4FjJW2Wd8KWsoluWz_gKpAVNFPkqR75CY" /> -->
+<meta name="google-site-verification" content="fx7EwNo3Db8byIwXpO7ZFHjkALfoMKgJu_yJKFURKA4" />
 <!-- favicons -->
 <link rel="shortcut icon" href="<?php echo ASSET_URL; ?>assets/favicon/favicon.ico">
 <link rel="apple-touch-icon" href="<?php echo ASSET_URL; ?>images/favicon-Itechverse.png">
