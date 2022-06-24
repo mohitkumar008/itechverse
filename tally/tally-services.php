@@ -20,7 +20,7 @@ $page_name = "tally-services";
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="<?php echo ASSET_IMG_URL; ?>banner/tally-services-banner.jpg" class="img-responsive" alt="tally-services-banner.jpg" onContextMenu="return false;" />
+                    <img src="<?php echo ASSET_IMG_URL; ?>banner/tally-service-banner.jpg" class="img-responsive" alt="tally-services-banner.jpg" onContextMenu="return false;" />
                 </div>
             </div>
         </div>
