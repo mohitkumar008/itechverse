@@ -18,7 +18,7 @@ $page_name = "graphic-designing";
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="<?php echo ASSET_IMG_URL; ?>banner/gd-banner-new.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo ASSET_IMG_URL; ?>banner/graphic-designing-banner.jpg" class="img-responsive" alt="" onContextMenu="return false;" />
                 </div>
             </div>
         </div>

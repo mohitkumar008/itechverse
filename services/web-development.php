@@ -19,7 +19,7 @@ $page_name = "web-development";
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="<?php echo ASSET_IMG_URL; ?>banner/wd-banner-new.jpg" class="img-responsive" alt="">
+                    <img src="<?php echo ASSET_IMG_URL; ?>banner/web-development-banner.jpg" class="img-responsive" alt="web-development-banner.jpg" onContextMenu="return false;" />
                 </div>
             </div>
         </div>
